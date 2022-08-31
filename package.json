@@ -1,0 +1,20 @@
+{
+	"name": "droid-jam-jakarta",
+	"version": "1.0.0",
+	"description": "",
+	"main": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch:tailwind": "tailwindcss -i ./styles/tailwind.css -o ./styles/style.dist.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arayhan/droid-jam-jakarta.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/arayhan/droid-jam-jakarta/issues"
+	},
+	"homepage": "https://github.com/arayhan/droid-jam-jakarta#readme"
+}
