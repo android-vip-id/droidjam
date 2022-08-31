@@ -1,7 +1,12 @@
 module.exports = {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+	content: ["index.html"],
+	theme: {
+		extend: {
+			container: {
+				center: true,
+				padding: "2rem",
+			},
+		},
+	},
+	plugins: [],
+};
