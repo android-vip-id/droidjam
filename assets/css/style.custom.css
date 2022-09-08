@@ -1,0 +1,17 @@
+.custom-header-container {
+	background: url(https://www.abc.com/wp-content/uploads/2018/01/abc.jpg)
+		no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+
+.countdown-container {
+}
+.countdown-item {
+	border: 1px dashed #2b4666;
+}
+.countdown-item-value {
+}
+.countdown-item-unit {
+}
