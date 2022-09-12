@@ -5,7 +5,8 @@
 	<base href="" />
 	<title>Droidcon Indonesia 2022</title>
 	<meta charset="utf-8" />
-	<meta name="description" content="The biggest Android developer event in Indonesia" />
+	<meta name="description"
+		content="Droidjam brings together thousands of Android developers globally for the largest virtual weekend of community-led technical learning and a shared passion for Android technologies." />
 	<meta name="keywords"
 		content="android, developer, android developer, droidjam, droidcon, android event, android conference" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,12 +26,12 @@
 	<script>var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-theme-mode")) { themeMode = document.documentElement.getAttribute("data-theme-mode"); } else { if (localStorage.getItem("data-theme") !== null) { themeMode = localStorage.getItem("data-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-theme", themeMode); }</script>
 	<div class="d-flex flex-column flex-root" id="kt_app_root">
 		<div class="mb-0" id="home">
-			<div class="bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-bottom landing-dark-bg"
+			<div class="bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-bottom bg-black"
 				style="background-image: url(assets/media/svg/illustrations/landing.svg)">
-				<div class="d-flex flex-column flex-center w-100 px-9" style="height: 100vh">
+				<div class="d-flex flex-column flex-center w-100 px-9 container" style="height: 100vh">
 					<div class="text-center mb-5 mb-lg-10 py-10 py-lg-20">
 						<div class="mb-10">
-							<img alt="Logo" src="assets/media/logos/droid-jam-logo.png"
+							<img alt="Logo" src="assets/media/logos/droid-jam-logo-300x300.png"
 								class="logo-default w-150px rounded-4" />
 						</div>
 						<div class="mb-8">
@@ -38,8 +39,9 @@
 									style="background: linear-gradient(to right, #12CE5D 0%, #FFD80C 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
 									<span id="kt_landing_hero_text">Indonesia</span>
 								</span> 2022 </h1>
-							<p class="text-white fs-1x fs-lg-2x fw-medium">The biggest Android developer event in
-								Indonesia</p>
+							<p class="text-white fs-1x fs-lg-2x fw-medium">Droidjam brings together thousands of Android
+								developers globally for the largest virtual weekend of community-led technical learning
+								and a shared passion for Android technologies.</p>
 						</div>
 						<div class="mb-8 text-white"><strong>8th</strong> and <strong>15th</strong> October 2022 <br> at
 							<strong>Indosat Auditorium</strong> <a
@@ -103,7 +105,7 @@
 	<script type="module">
 		import countdown from './assets/js/countdown.min.js';
 
-		const eventDate = new Date(2022, 9, 24);
+		const eventDate = new Date(2022, 10, 8, 10, 0, 0);
 
 		setInterval(() => {
 			const timespan = countdown(eventDate);
