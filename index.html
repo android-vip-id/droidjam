@@ -105,10 +105,11 @@
 	<script type="module">
 		import countdown from './assets/js/countdown.min.js';
 
-		const eventDate = new Date(2022, 10, 15, 10, 0, 0);
+		const eventDate = new Date(2022, 9, 15); // 15th October 2022
 
 		setInterval(() => {
-			const timespan = countdown(eventDate);
+			const timespan = countdown(null, eventDate, countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS);
+
 			document.getElementById('countdownDays').innerHTML = timespan.days;
 			document.getElementById('countdownHours').innerHTML = timespan.hours;
 			document.getElementById('countdownMinutes').innerHTML = timespan.minutes;
