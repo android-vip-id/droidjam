@@ -9,7 +9,9 @@
 .countdown-container {
 }
 .countdown-item {
-	border: 1px dashed #2b4666;
+	border-radius: 3px;
+	border: 1px dashed #333;
+	background: rgba(51, 51, 51, 0.5);
 }
 .countdown-item-value {
 }
