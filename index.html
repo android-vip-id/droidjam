@@ -50,24 +50,22 @@
 								target="_blank">View Map</a> <br><br> Our tickets are selling fast so don’t miss.
 							Conference will start in </div>
 						<div class="countdown-container d-flex">
-							<div class="countdown-item text-white p-3 mx-2 flex-grow-1">
-								<div class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04</div>
-								<div class="countdown-item-unit">weeks</div>
-							</div>
-							<div class="countdown-item text-white p-3 mx-2 flex-grow-1">
-								<div class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04</div>
+							<div class="countdown-item flex-equal text-white p-3 mx-2">
+								<div id="countdownDays" class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04</div>
 								<div class="countdown-item-unit">days</div>
 							</div>
-							<div class="countdown-item text-white p-3 mx-2 flex-grow-1">
-								<div class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04</div>
+							<div class="countdown-item flex-equal text-white p-3 mx-2">
+								<div id="countdownHours" class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04</div>
 								<div class="countdown-item-unit">hours</div>
 							</div>
-							<div class="countdown-item text-white p-3 mx-2 flex-grow-1">
-								<div class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04</div>
+							<div class="countdown-item flex-equal text-white p-3 mx-2">
+								<div id="countdownMinutes" class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04
+								</div>
 								<div class="countdown-item-unit">minutes</div>
 							</div>
-							<div class="countdown-item text-white p-3 mx-2 flex-grow-1">
-								<div class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04</div>
+							<div class="countdown-item flex-equal text-white p-3 mx-2">
+								<div id="countdownSeconds" class="countdown-item-value fs-2x fs-lg-3x fw-bolder">04
+								</div>
 								<div class="countdown-item-unit">seconds</div>
 							</div>
 						</div>
@@ -105,6 +103,19 @@
 	<script src="assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
 	<script src="assets/js/custom/landing.js"></script>
 	<script src="assets/js/custom/pages/pricing/general.js"></script>
+	<script type="module">
+		import countdown from './assets/js/countdown.min.js';
+
+		const eventDate = new Date(2022, 9, 24);
+
+		setInterval(() => {
+			const timespan = countdown(eventDate);
+			document.getElementById('countdownDays').innerHTML = timespan.days;
+			document.getElementById('countdownHours').innerHTML = timespan.hours;
+			document.getElementById('countdownMinutes').innerHTML = timespan.minutes;
+			document.getElementById('countdownSeconds').innerHTML = timespan.seconds;
+		}, 1000);
+	</script>
 </body>
 
 </html>
