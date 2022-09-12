@@ -26,7 +26,7 @@
 	<script>var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-theme-mode")) { themeMode = document.documentElement.getAttribute("data-theme-mode"); } else { if (localStorage.getItem("data-theme") !== null) { themeMode = localStorage.getItem("data-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-theme", themeMode); }</script>
 	<div class="d-flex flex-column flex-root" id="kt_app_root">
 		<div class="mb-0" id="home">
-			<div class="bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-bottom bg-black"
+			<div class="landing-background bgi-no-repeat bgi-position-x-center bgi-position-y-bottom bg-black"
 				style="background-image: url(assets/media/svg/illustrations/landing.svg)">
 				<div class="d-flex flex-column flex-center w-100 px-9 container" style="height: 100vh">
 					<div class="text-center mb-5 mb-lg-10 py-10 py-lg-20">

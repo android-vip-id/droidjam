@@ -1,3 +1,7 @@
+.landing-background {
+	background-size: 128em;
+}
+
 .custom-header-container {
 	background: url(https://www.abc.com/wp-content/uploads/2018/01/abc.jpg)
 		no-repeat center center;
