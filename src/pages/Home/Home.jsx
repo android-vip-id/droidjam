@@ -13,12 +13,12 @@ export const Home = () => {
 				<div className="relative flex items-center justify-center min-h-screen">
 					<div className="relative flex flex-col items-center justify-center">
 						<div>
-							<img className="w-48" src={ImageLogo} alt="droid jam logo" />
+							<img className="w-40 md:w-48" src={ImageLogo} alt="droid jam logo" />
 						</div>
 
 						<div className="space-y-6 mb-12">
-							<div className="space-y-3">
-								<div className="text-[2.5rem] font-semibold text-center text-white ">
+							<div className="space-y-6">
+								<div className="text-2xl md:text-4xl lg:text-[2.5rem] font-semibold text-center text-white ">
 									Droidjam{' '}
 									<span
 										className="bg-gradient-to-br from-green-500 to-yellow-500 bg-clip-text"
@@ -29,47 +29,48 @@ export const Home = () => {
 									2022
 								</div>
 
-								<div className="text-[1.6rem] text-center text-white">
+								<div className="text-sm md:text-lg lg:text-[1.6rem] text-center text-white">
 									Droidjam brings together thousands of Android developers globally for the largest virtual weekend of
 									community-led technical learning and a shared passion for Android technologies.
 								</div>
 							</div>
 
-							<div className="space-y-1 text-sm text-center text-white">
-								<div>15th October 2022</div>
-								<div>
-									at <span className="font-semibold">Indosat Auditorium</span>{' '}
-									<a
-										className="text-blue-500 transition-all hover:text-white"
-										href={DATA_EVENT.LOCATION.URL}
-										rel="noreferrer"
-										target="_blank"
-									>
-										View Map
-									</a>
+							<div className="space-y-3">
+								<div className="space-y-1 text-sm text-center text-white">
+									<div>15th October 2022</div>
+									<div>
+										at <span className="font-semibold">Indosat Auditorium</span>{' '}
+										<a
+											className="text-blue-500 transition-all hover:text-white"
+											href={DATA_EVENT.LOCATION.URL}
+											rel="noreferrer"
+											target="_blank"
+										>
+											View Map
+										</a>
+									</div>
+								</div>
+								<div className="text-sm text-center text-white">
+									Our tickets are selling fast so don't miss. Conference will start in
 								</div>
 							</div>
 
-							<div className="text-sm text-center text-white">
-								Our tickets are selling fast so don't miss. Conference will start in
-							</div>
-
-							<div className="flex w-full space-x-4">
-								<div className="flex-1 p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
-									<div className="text-4xl font-bold">19</div>
-									<div className="text-sm">days</div>
+							<div className="flex w-full max-w-screen-lg mx-auto space-x-4">
+								<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
+									<div className="text-2xl md:text-4xl font-bold">19</div>
+									<div className="text-xs md:text-sm">days</div>
 								</div>
-								<div className="flex-1 p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
-									<div className="text-4xl font-bold">19</div>
-									<div className="text-sm">days</div>
+								<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
+									<div className="text-2xl md:text-4xl font-bold">19</div>
+									<div className="text-xs md:text-sm">days</div>
 								</div>
-								<div className="flex-1 p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
-									<div className="text-4xl font-bold">19</div>
-									<div className="text-sm">days</div>
+								<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
+									<div className="text-2xl md:text-4xl font-bold">19</div>
+									<div className="text-xs md:text-sm">days</div>
 								</div>
-								<div className="flex-1 p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
-									<div className="text-4xl font-bold">19</div>
-									<div className="text-sm">days</div>
+								<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
+									<div className="text-2xl md:text-4xl font-bold">19</div>
+									<div className="text-xs md:text-sm">days</div>
 								</div>
 							</div>
 						</div>
