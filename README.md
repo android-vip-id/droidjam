@@ -1,2 +1,0 @@
-# droidjam
-Droid Jam Indonesia
