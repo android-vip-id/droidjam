@@ -1,3 +1,4 @@
-import logo from './logo.svg';
+import ImageLogo from './droid-jam-logo.png';
+import ImageBannerSky from './banner-sky.svg';
 
-export { logo };
+export { ImageLogo, ImageBannerSky };
