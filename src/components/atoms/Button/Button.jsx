@@ -6,14 +6,14 @@ export const Button = ({ variant, text, href, to, onClick, leftIcon, rightIcon, 
 	const navigate = useNavigate();
 
 	const handleClick = (e) => {
-		if (href) window.location.href = href;
+		if (href) window.open(href, '_blank');
 		else if (to) navigate(to);
 		else if (onClick) onClick(e);
 	};
 
 	return (
 		<button
-			className={`flex items-center bg-gray-700 rounded-full px-8 py-3 space-x-2 text-sm text-gray-200 hover:bg-gray-600 transition-all ${className}`}
+			className={`flex items-center bg-gray-200 font-semibold rounded-full text-sm text-gray-800 hover:bg-gray-300 transition-all ${className}`}
 			onClick={handleClick}
 			{...props}
 		>

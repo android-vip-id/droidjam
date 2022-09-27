@@ -13,16 +13,16 @@ export const HeaderMobile = () => {
 		<div className="block lg:hidden">
 			<HeaderSideMenu show={showSideMenu} onClose={handleClose} />
 			<div className="px-8 sm:px-10">
-				<div className="flex items-center justify-between py-3 space-x-6">
+				<div className="flex items-center justify-between space-x-6">
 					<Link to={ROUTES.HOME} onClick={handleClose}>
-						<img className="w-32" src={require('@/images/logo/droid-jam-logo.png')} alt="Droidjam Logo" />
+						<img className="w-20" src={require('@/images/logo/droid-jam-logo-square.png')} alt="Droidjam Logo" />
 					</Link>
 
 					<button
-						className="p-3 border-2 border-transparent transform translate-x-4 hover:border-gray-700 rounded-lg outline-none"
+						className="px-3 py-2 border-2 border-transparent text-white transform translate-x-4 bg-white bg-opacity-0 hover:bg-opacity-10 transition-all rounded-lg"
 						onClick={() => setShowSideMenu(!showSideMenu)}
 					>
-						<MdDehaze size={20} />
+						<MdDehaze size={24} />
 					</button>
 				</div>
 			</div>
