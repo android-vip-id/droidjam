@@ -7,7 +7,11 @@ export const HeaderCountdown = () => {
 	return (
 		<div className="relative bg-black">
 			<div className="absolute left-0 top-0 w-full h-full flex items-end justify-center">
-				<img className="w-10/12" src={require('@/images/banner-sky.svg').default} alt="banner skye" />
+				<img
+					className="w-full h-3/5 object-cover lg:object-contain lg:w-11/12"
+					src={require('@/images/banner-sky.svg').default}
+					alt="banner skye"
+				/>
 			</div>
 			<div className="container max-w-screen-xl">
 				<div className="relative flex items-center justify-center min-h-screen">
