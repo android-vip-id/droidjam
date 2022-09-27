@@ -41,7 +41,7 @@ export const BannerCountdown = () => {
 
 							<div className="space-y-3">
 								<div className="space-y-1 text-sm text-center text-white">
-									<div>{DATA_EVENT.HELD_DATE.LABEL}</div>
+									<div>{DATA_EVENT.CALENDAR.LABEL}</div>
 									<div>
 										at <span className="font-semibold">{DATA_EVENT.LOCATION.LABEL}</span>{' '}
 										<a
@@ -60,7 +60,7 @@ export const BannerCountdown = () => {
 							</div>
 
 							<Countdown
-								date={DATA_EVENT.HELD_DATE.VALUE}
+								date={DATA_EVENT.CALENDAR.VALUE}
 								renderer={({ days, hours, minutes, seconds }) => (
 									<div className="flex w-full max-w-screen-lg mx-auto space-x-4">
 										<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">

@@ -3,10 +3,15 @@ export const TITLE = 'DroidJam Indonesia 2022';
 export const DESCRIPTION =
 	'Droidjam brings together thousands of Android developers globally for the largest virtual weekend of community-led technical learning and a shared passion for Android technologies.';
 
-export const HELD_DATE = {
-	LABEL: '15th October 2022',
-	VALUE: new Date(2022, 9, 15),
-	ADD_TO_CALENDAR_URL:
+export const CALENDAR = {
+	DATE: {
+		LABEL: '15th October',
+		VALUE: new Date(2022, 9, 15),
+	},
+	TIME: {
+		LABEL: '10.00 - 16.00',
+	},
+	REMINDER_URL:
 		'https://www.google.com/calendar/render?action=TEMPLATE&text=Droidcon+Indonesia+2022&details=DroidJam+Conference+brings+together+thousands+of%0AAndroid+developers+globally+for+the+largest+event%0Acommunity-led+technical+learning+and+a+shared%0Apassion+for+Android+technologies.&location=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%2FJl.%2BMedan%2BMerdeka%2BBarat%2BNo.21%2C%2BRT.2%2F3%2C%2BGambir%2C%2BKecamatan%2BGambir%2C%2BKota%2BJakarta%2BPusat%2C%2BDaerah%2BKhusus%2BIbukota%2BJakarta%2F%40-6.1758763%2C106.7514844%2C12z%2Fdata%3D%214m9%214m8%211m0%211m0%211m5%211m1%211s0x2e69f5d4c204dfe9%3A0x65c90d6690f5dedd%212m2%211d106.821525%212d-6.1758809&dates=20221015T030000Z%2F20221015T090000Z',
 };
 
@@ -41,8 +46,8 @@ export const MAIN_TOPICS = [
 export const DATA_EVENT = {
 	TITLE,
 	DESCRIPTION,
-	HELD_DATE,
-	REGISTRATION_LINK,
+	CALENDAR,
 	LOCATION,
+	REGISTRATION_LINK,
 	MAIN_TOPICS,
 };
