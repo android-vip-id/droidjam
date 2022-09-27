@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.560c7647.css",
-    "main.js": "/static/js/main.29070511.js",
+    "main.css": "/static/css/main.3ba157ef.css",
+    "main.js": "/static/js/main.c810ed1a.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
     "static/media/droid-jam-logo.png": "/static/media/droid-jam-logo.a72baff71e58de99b799.png",
     "static/media/banner-sky.svg": "/static/media/banner-sky.cb782f88642c8787dd839d9d9129d94f.svg",
     "index.html": "/index.html",
-    "main.560c7647.css.map": "/static/css/main.560c7647.css.map",
-    "main.29070511.js.map": "/static/js/main.29070511.js.map",
+    "main.3ba157ef.css.map": "/static/css/main.3ba157ef.css.map",
+    "main.c810ed1a.js.map": "/static/js/main.c810ed1a.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.560c7647.css",
-    "static/js/main.29070511.js"
+    "static/css/main.3ba157ef.css",
+    "static/js/main.c810ed1a.js"
   ]
 }
