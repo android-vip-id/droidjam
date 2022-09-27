@@ -25,7 +25,7 @@ export const BannerHome = () => {
 
 							<div className="space-y-6 mb-12">
 								<div className="space-y-6">
-									<div className="text-2xl md:text-4xl lg:text-[2.5rem] font-semibold text-center text-white ">
+									<div className="text-2xl lg:text-4xl xl:text-[2.5rem] font-semibold text-center text-white ">
 										Droidjam{' '}
 										<span
 											className="bg-gradient-to-br from-green-500 to-yellow-500 bg-clip-text"
@@ -36,7 +36,7 @@ export const BannerHome = () => {
 										2022
 									</div>
 
-									<div className="text-sm md:text-lg lg:text-[1.6rem] text-center text-white">
+									<div className="text-sm lg:text-lg xl:text-[1.6rem] text-center text-white lg:leading-tight">
 										Droidjam brings together thousands of Android developers globally for the largest virtual weekend of
 										community-led technical learning and a shared passion for Android technologies.
 									</div>

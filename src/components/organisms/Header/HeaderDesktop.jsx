@@ -35,7 +35,7 @@ export const HeaderDesktop = () => {
 
 					<div className="absolute right-0 flex items-center space-x-3">
 						<Button
-							className="px-5 py-2 space-x-2"
+							className="px-5 py-3 space-x-2"
 							text="Get Tickets"
 							href={EVENT.REGISTRATION_LINK}
 							rightIcon={<ImTicket size={16} />}
