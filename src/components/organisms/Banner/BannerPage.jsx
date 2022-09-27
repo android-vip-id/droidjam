@@ -19,7 +19,7 @@ export const BannerPage = ({ title, description }) => {
 					>
 						{title}
 					</h1>
-					<p className="text-lg opacity-50 lg:w-1/2">{description}</p>
+					<p className="text-lg opacity-50 lg:w-3/4">{description}</p>
 				</div>
 			</Container>
 		</section>
