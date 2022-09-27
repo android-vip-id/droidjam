@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ba157ef.css",
-    "main.js": "/static/js/main.c810ed1a.js",
+    "main.css": "/static/css/main.b83040f7.css",
+    "main.js": "/static/js/main.762d9165.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
-    "static/media/droid-jam-logo.png": "/static/media/droid-jam-logo.a72baff71e58de99b799.png",
+    "static/media/Angga.png": "/static/media/Angga.96ea6e5fb8891b29d1a1.png",
+    "static/media/rahmat.jpg": "/static/media/rahmat.a950e7dd6724da01d0e1.jpg",
+    "static/media/indosat-ooredoo.png": "/static/media/indosat-ooredoo.93d94bca713fad16416d.png",
+    "static/media/AngieSasmita.jpg": "/static/media/AngieSasmita.2d7d60732e3f4f6469eb.jpg",
+    "static/media/RadityaGumay.jpeg": "/static/media/RadityaGumay.f5746a3c360a0ffb2fb1.jpeg",
+    "static/media/rama.jpg": "/static/media/rama.d584bbadbb65f866ee78.jpg",
+    "static/media/droid-jam-logo-square.png": "/static/media/droid-jam-logo-square.a72baff71e58de99b799.png",
+    "static/media/droid-jam-logo.png": "/static/media/droid-jam-logo.fcd072362e048463a02a.png",
     "static/media/banner-sky.svg": "/static/media/banner-sky.cb782f88642c8787dd839d9d9129d94f.svg",
     "index.html": "/index.html",
-    "main.3ba157ef.css.map": "/static/css/main.3ba157ef.css.map",
-    "main.c810ed1a.js.map": "/static/js/main.c810ed1a.js.map",
+    "static/media/shape-1-bottom.svg": "/static/media/shape-1-bottom.039e96451841b52376ea.svg",
+    "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
+    "main.b83040f7.css.map": "/static/css/main.b83040f7.css.map",
+    "main.762d9165.js.map": "/static/js/main.762d9165.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ba157ef.css",
-    "static/js/main.c810ed1a.js"
+    "static/css/main.b83040f7.css",
+    "static/js/main.762d9165.js"
   ]
 }
