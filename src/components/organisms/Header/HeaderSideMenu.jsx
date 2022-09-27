@@ -8,14 +8,14 @@ export const HeaderSideMenu = ({ show, onClose }) => {
 	return (
 		<div>
 			<div
-				className={`transition-all fixed z-10 left-0 top-0 w-screen h-screen bg-black ${
+				className={`transition-all fixed z-10 left-0 top-0 w-screen h-full bg-black ${
 					show ? 'visible opacity-50' : 'invisible opacity-0'
 				}`}
 				onClick={onClose}
 			/>
 
 			<div
-				className={`fixed right-0 top-0 h-screen w-72 bg-white z-10 shadow-md transition-all transform ${
+				className={`fixed right-0 top-0 h-full w-72 bg-white z-10 shadow-md transition-all transform ${
 					show ? 'translate-x-0' : 'translate-x-full'
 				}`}
 			>
