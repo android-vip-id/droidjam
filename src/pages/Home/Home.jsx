@@ -2,6 +2,7 @@ import React from 'react';
 import { ImageLogo, ImageBannerSky } from '@/images';
 import { DATA_EVENT } from '@/datas';
 import { ImTicket } from 'react-icons/im';
+import Countdown from 'react-countdown';
 
 export const Home = () => {
 	return (
@@ -55,24 +56,29 @@ export const Home = () => {
 								</div>
 							</div>
 
-							<div className="flex w-full max-w-screen-lg mx-auto space-x-4">
-								<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
-									<div className="text-2xl md:text-4xl font-bold">19</div>
-									<div className="text-xs md:text-sm">days</div>
-								</div>
-								<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
-									<div className="text-2xl md:text-4xl font-bold">19</div>
-									<div className="text-xs md:text-sm">days</div>
-								</div>
-								<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
-									<div className="text-2xl md:text-4xl font-bold">19</div>
-									<div className="text-xs md:text-sm">days</div>
-								</div>
-								<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
-									<div className="text-2xl md:text-4xl font-bold">19</div>
-									<div className="text-xs md:text-sm">days</div>
-								</div>
-							</div>
+							<Countdown
+								date={new Date(2022, 9, 15)}
+								renderer={({ days, hours, minutes, seconds }) => (
+									<div className="flex w-full max-w-screen-lg mx-auto space-x-4">
+										<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
+											<div className="text-2xl md:text-4xl font-bold">{days}</div>
+											<div className="text-xs md:text-sm">day(s)</div>
+										</div>
+										<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
+											<div className="text-2xl md:text-4xl font-bold">{hours}</div>
+											<div className="text-xs md:text-sm">hour(s)</div>
+										</div>
+										<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
+											<div className="text-2xl md:text-4xl font-bold">{minutes}</div>
+											<div className="text-xs md:text-sm">minute(s)</div>
+										</div>
+										<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
+											<div className="text-2xl md:text-4xl font-bold">{seconds}</div>
+											<div className="text-xs md:text-sm">seconds</div>
+										</div>
+									</div>
+								)}
+							/>
 						</div>
 
 						<a
