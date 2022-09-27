@@ -2,6 +2,7 @@ import React from 'react';
 import Countdown from 'react-countdown';
 import { ImTicket } from 'react-icons/im';
 import { DATA_EVENT } from '@/datas';
+import { EVENT } from '@/utils/constants';
 
 export const BannerCountdown = () => {
 	return (
@@ -9,7 +10,7 @@ export const BannerCountdown = () => {
 			<div className="absolute left-0 top-0 w-full h-full flex items-end justify-center">
 				<img
 					className="w-full h-3/5 object-cover lg:object-contain lg:w-11/12"
-					src={require('@/images/banner-sky.svg').default}
+					src={require('@/images/samples/banner-sky.svg').default}
 					alt="banner skye"
 				/>
 			</div>
@@ -17,7 +18,7 @@ export const BannerCountdown = () => {
 				<div className="relative flex items-center justify-center min-h-screen">
 					<div className="relative flex flex-col items-center justify-center">
 						<div>
-							<img className="w-40 md:w-48" src={require('@/images/droid-jam-logo.png')} alt="droid jam logo" />
+							<img className="w-40 md:w-48" src={require('@/images/logo/droid-jam-logo.png')} alt="droid jam logo" />
 						</div>
 
 						<div className="space-y-6 mb-12">
@@ -60,7 +61,7 @@ export const BannerCountdown = () => {
 							</div>
 
 							<Countdown
-								date={new Date(2022, 9, 15)}
+								date={EVENT.HELD_DATE}
 								renderer={({ days, hours, minutes, seconds }) => (
 									<div className="flex w-full max-w-screen-lg mx-auto space-x-4">
 										<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
@@ -86,7 +87,7 @@ export const BannerCountdown = () => {
 
 						<a
 							className="flex text-sm items-center space-x-3 px-6 py-3 font-semibold text-center transition-all bg-white hover:bg-gray-200 rounded-md text-black"
-							href="https://www.loket.com/event/droidjam-android-conference-jakarta-2022_DgT1"
+							href={EVENT.REGISTRATION_LINK}
 							target="_blank"
 							rel="noreferrer"
 						>
