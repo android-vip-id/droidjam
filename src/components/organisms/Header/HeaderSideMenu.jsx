@@ -1,9 +1,8 @@
 import { MdLaunch } from 'react-icons/md';
-import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { Button } from '@/components/atoms';
-import { EVENT } from '@/utils/constants';
-import { ROUTES, HEADER_ROUTES } from '../../../routes';
+import { HEADER_ROUTES } from '../../../routes';
+import { DATA_EVENT } from '@/datas';
 
 export const HeaderSideMenu = ({ show, onClose }) => {
 	return (
@@ -40,7 +39,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
 				<div className="absolute bottom-0 flex items-center space-x-3 justify-between w-full p-5">
 					<Button
 						className="w-full text-center justify-center py-3"
-						href={EVENT.REGISTRATION_LINK}
+						href={DATA_EVENT.REGISTRATION_LINK}
 						onClick={onClose}
 						text="Buy Tickets"
 						icon={<MdLaunch size={16} />}

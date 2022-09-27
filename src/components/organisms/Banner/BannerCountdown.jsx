@@ -2,7 +2,6 @@ import React from 'react';
 import Countdown from 'react-countdown';
 import { ImTicket } from 'react-icons/im';
 import { DATA_EVENT } from '@/datas';
-import { EVENT } from '@/utils/constants';
 
 export const BannerCountdown = () => {
 	return (
@@ -42,9 +41,9 @@ export const BannerCountdown = () => {
 
 							<div className="space-y-3">
 								<div className="space-y-1 text-sm text-center text-white">
-									<div>15th October 2022</div>
+									<div>{DATA_EVENT.HELD_DATE.LABEL}</div>
 									<div>
-										at <span className="font-semibold">Indosat Auditorium</span>{' '}
+										at <span className="font-semibold">{DATA_EVENT.LOCATION.LABEL}</span>{' '}
 										<a
 											className="text-blue-500 transition-all hover:text-white"
 											href={DATA_EVENT.LOCATION.URL}
@@ -61,7 +60,7 @@ export const BannerCountdown = () => {
 							</div>
 
 							<Countdown
-								date={EVENT.HELD_DATE}
+								date={DATA_EVENT.HELD_DATE.VALUE}
 								renderer={({ days, hours, minutes, seconds }) => (
 									<div className="flex w-full max-w-screen-lg mx-auto space-x-4">
 										<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
@@ -87,7 +86,7 @@ export const BannerCountdown = () => {
 
 						<a
 							className="flex text-sm items-center space-x-3 px-6 py-3 font-semibold text-center transition-all bg-white hover:bg-gray-200 rounded-md text-black"
-							href={EVENT.REGISTRATION_LINK}
+							href={DATA_EVENT.REGISTRATION_LINK}
 							target="_blank"
 							rel="noreferrer"
 						>
