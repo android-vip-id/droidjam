@@ -2,6 +2,7 @@
 	"name": "react-tailwind-boilerplate",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://droidjam.id",
 	"dependencies": {
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/forms": "^0.5.3",
@@ -29,7 +30,8 @@
 		"start": "react-app-rewired start",
 		"build": "react-app-rewired build",
 		"test": "react-app-rewired test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"deploy": "npm run build && gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -51,6 +53,7 @@
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.11",
+		"gh-pages": "^4.0.0",
 		"postcss": "^8.4.16",
 		"react-app-rewire-alias": "^1.1.7",
 		"react-app-rewired": "^2.2.1",
