@@ -1,6 +1,6 @@
 import { DATA_EVENT } from '@/datas';
 
-export const BannerHome = () => {
+export const HomeBanner = () => {
 	return (
 		<div className="h-screen w-full bg-black flex items-center justify-center">
 			<div className="container max-w-screen-xl text-center">
