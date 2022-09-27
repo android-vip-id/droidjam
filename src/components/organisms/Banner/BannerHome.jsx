@@ -1,5 +1,4 @@
 import { DATA_EVENT } from '@/datas';
-import React from 'react';
 
 export const BannerHome = () => {
 	return (

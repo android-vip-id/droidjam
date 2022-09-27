@@ -1,5 +1,4 @@
 import { Link, NavLink } from 'react-router-dom';
-import { MdLaunch } from 'react-icons/md';
 import { ROUTES, HEADER_ROUTES } from '../../../routes';
 import { Button } from '@/components/atoms';
 import { EVENT } from '@/utils/constants';
