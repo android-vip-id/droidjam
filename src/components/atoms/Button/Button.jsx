@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router';
+import classNames from 'classnames';
 
 export const Button = ({ variant, text, href, to, onClick, leftIcon, rightIcon, className, children, ...props }) => {
 	const navigate = useNavigate();
@@ -11,9 +12,19 @@ export const Button = ({ variant, text, href, to, onClick, leftIcon, rightIcon, 
 		else if (onClick) onClick(e);
 	};
 
+	const whiteClasses = 'bg-white text-gray-800 hover:bg-gray-300';
+	const primaryClasses = 'bg-gradient-to-br from-green-500 to-blue-500 opacity-90 hover:opacity-100 text-white';
+	const successClasses = 'bg-green-600 text-white hover:bg-green-700';
+
+	const variantClasses = classNames({
+		[whiteClasses]: variant === 'white',
+		[successClasses]: variant === 'success',
+		[primaryClasses]: variant === 'primary',
+	});
+
 	return (
 		<button
-			className={`flex items-center bg-white font-semibold rounded-full text-sm text-gray-800 hover:bg-gray-300 transition-all ${className}`}
+			className={`flex items-center font-semibold rounded-full text-sm transition-all ${className} ${variantClasses}`}
 			onClick={handleClick}
 			{...props}
 		>
@@ -26,8 +37,6 @@ export const Button = ({ variant, text, href, to, onClick, leftIcon, rightIcon, 
 	);
 };
 
-Button.propTypes = {
-	variant: PropTypes.oneOf(['primary', 'secondary', 'tertiary']),
+Button.defaultProps = {
+	variant: 'white',
 };
-
-Button.defaultProps = {};
