@@ -1,1 +1,1 @@
-export * from './HeaderCountdown/HeaderCountdown';
+export * from './Banner/BannerCountdown';

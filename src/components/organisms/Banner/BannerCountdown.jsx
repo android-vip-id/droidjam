@@ -3,7 +3,7 @@ import Countdown from 'react-countdown';
 import { ImTicket } from 'react-icons/im';
 import { DATA_EVENT } from '@/datas';
 
-export const HeaderCountdown = () => {
+export const BannerCountdown = () => {
 	return (
 		<div className="relative bg-black">
 			<div className="absolute left-0 top-0 w-full h-full flex items-end justify-center">

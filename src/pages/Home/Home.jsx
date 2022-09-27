@@ -1,10 +1,10 @@
 import React from 'react';
-import { HeaderCountdown } from '@/components/organisms';
+import { BannerCountdown } from '@/components/organisms';
 
 export const Home = () => {
 	return (
 		<div>
-			<HeaderCountdown />
+			<BannerCountdown />
 		</div>
 	);
 };
