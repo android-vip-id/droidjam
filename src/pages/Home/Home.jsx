@@ -1,11 +1,11 @@
-import { SectionBorder } from '@/components/atoms';
-import { BannerHome } from '@/components/organisms';
+import { HomeAbout } from './components/HomeAbout';
+import { HomeBanner } from './components/HomeBanner';
 
 export const Home = () => {
 	return (
-		<div>
-			<BannerHome />
-			<SectionBorder position="bottom" />
-		</div>
+		<main>
+			<HomeBanner />
+			<HomeAbout />
+		</main>
 	);
 };

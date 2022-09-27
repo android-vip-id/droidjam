@@ -1,56 +1,63 @@
-import { FiCalendar, FiMapPin } from 'react-icons/fi';
-import { AiOutlineClockCircle } from 'react-icons/ai';
+import { FiCheckCircle } from 'react-icons/fi';
 import { DATA_EVENT } from '@/datas';
 
 export const HomeAbout = () => {
 	return (
-		<div className="py-20">
-			<div className="container max-w-screen-xl">
-				<div className="flex space-x-8">
-					<div className="w-7/12 space-y-6">
-						<div className="text-2xl font-bold">Droidjam Indonesia 2022</div>
-						<div className="text-sm">
+		<section className="py-20">
+			<div className="container md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
+				<div className="flex items-start space-x-12">
+					<div className="flex-1 space-y-8 md:space-y-12">
+						<div className="text-left text-lg">
 							DroidJam Conference brings together thousands of Android developers globally for the largest event
-							community-led technical learning and a shared passion for Android technologies.
+							community-led technical learning and a shared passion for Android technologies. We Invite 350+
+							Professional Android developers, Google Developer Experts, Technical leaders, Freelancers, Students, and
+							Android enthusiasts to join Droidjam Conference Jakarta 2022
 						</div>
-						<div className="space-y-3 text-sm">
-							<div className="flex items-center space-x-3">
-								<span className="w-5">
-									<FiCalendar size={20} />
+
+						<div className="space-y-4">
+							<div className="flex items-start space-x-3">
+								<span className="text-green-600">
+									<FiCheckCircle size={20} />
 								</span>
-								<span>15th October 2022, 10:00 - 16:00</span>
-								<a href={DATA_EVENT.HELD_DATE.ADD_TO_CALENDAR_URL} target="_blank" rel="noreferrer">
-									Add to Calendar
-								</a>
+								<span>1 Day Event</span>
 							</div>
-							<div className="flex items-center space-x-3">
-								<span className="w-5">
-									<AiOutlineClockCircle size={20} />
+							<div className="flex items-start space-x-3">
+								<span className="text-green-600">
+									<FiCheckCircle size={20} />
 								</span>
-								<span></span>
+								<span>15+ speakers</span>
 							</div>
-							<div className="flex items-center space-x-3">
-								<span className="w-5">
-									<FiMapPin size={20} />
+							<div className="flex items-start space-x-3">
+								<span className="text-green-600">
+									<FiCheckCircle size={20} />
 								</span>
-								<span>Indosat Auditorium</span>
+								<span>
+									Technical Talks Workshops, Panel discussions with top tech individuals Best-in-class speakers from
+									around the world Company Exhibits
+								</span>
+							</div>
+							<div className="flex items-start space-x-3">
+								<span className="text-green-600">
+									<FiCheckCircle size={20} />
+								</span>
+								<span>Food & Networking</span>
 							</div>
 						</div>
 					</div>
 
-					<div className="w-5/12 space-y-2">
+					<div className="flex-1 flex flex-col space-y-3">
 						{DATA_EVENT.MAIN_TOPICS.map((topic) => (
-							<div key={topic.title} className="border rounded-md bg-gray-200 p-4 space-y-2">
-								<div className="flex items-center space-x-3">
-									<img className="w-8" src={topic.icon} alt={topic.title} />
-									<div className="font-semibold">{topic.title}</div>
+							<div key={topic.title} className="flex items-start border rounded-md bg-gray-200 p-4 space-x-3">
+								<img className="w-8" src={topic.icon} alt={topic.title} />
+								<div>
+									<div className="font-semibold py-1 text-lg">{topic.title}</div>
+									<div>{topic.description}</div>
 								</div>
-								<div className="text-sm">{topic.description}</div>
 							</div>
 						))}
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
