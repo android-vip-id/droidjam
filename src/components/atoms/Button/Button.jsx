@@ -13,7 +13,7 @@ export const Button = ({ variant, text, href, to, onClick, leftIcon, rightIcon, 
 
 	return (
 		<button
-			className={`flex items-center bg-gray-200 font-semibold rounded-full text-sm text-gray-800 hover:bg-gray-300 transition-all ${className}`}
+			className={`flex items-center bg-white font-semibold rounded-full text-sm text-gray-800 hover:bg-gray-300 transition-all ${className}`}
 			onClick={handleClick}
 			{...props}
 		>
