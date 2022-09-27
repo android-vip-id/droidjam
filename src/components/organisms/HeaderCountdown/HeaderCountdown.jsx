@@ -73,7 +73,7 @@ export const HeaderCountdown = () => {
 										</div>
 										<div className="flex-1 p-3 md:p-5 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md bg-opacity-20">
 											<div className="text-2xl md:text-4xl font-bold">{seconds}</div>
-											<div className="text-xs md:text-sm">seconds</div>
+											<div className="text-xs md:text-sm">second(s)</div>
 										</div>
 									</div>
 								)}
