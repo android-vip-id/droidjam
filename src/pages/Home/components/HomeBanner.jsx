@@ -1,5 +1,6 @@
 import { Button, SectionBorder } from '@/components/atoms';
 import { DATA_EVENT } from '@/datas';
+import { Container } from '@/components/atoms';
 import { FiCalendar, FiExternalLink, FiMapPin } from 'react-icons/fi';
 import { ImTicket } from 'react-icons/im';
 
@@ -7,7 +8,7 @@ export const HomeBanner = () => {
 	return (
 		<section>
 			<div className="relative w-full bg-black flex items-center justify-center pt-20 pb-28 md:py-32">
-				<div className="container max-w-screen-xl text-center">
+				<Container className="text-center">
 					<div className="absolute left-0 top-0 w-full h-full flex items-end justify-center">
 						<img
 							className="w-full h-3/5 object-cover lg:object-contain text-xl:w-11/12"
@@ -88,7 +89,7 @@ export const HomeBanner = () => {
 							</div>
 						</div>
 					</div>
-				</div>
+				</Container>
 			</div>
 
 			<SectionBorder position="bottom" />

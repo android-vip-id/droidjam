@@ -1,10 +1,11 @@
 import { FiCheckCircle } from 'react-icons/fi';
 import { DATA_EVENT } from '@/datas';
+import { Container } from '@/components/atoms';
 
 export const HomeAbout = () => {
 	return (
 		<section className="py-16">
-			<div className="container md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
+			<Container>
 				<div className="grid lg:grid-cols-2 gap-12">
 					<div className="space-y-8 md:space-y-12">
 						<div className="text-left lg:text-lg">
@@ -57,7 +58,7 @@ export const HomeAbout = () => {
 						))}
 					</div>
 				</div>
-			</div>
+			</Container>
 		</section>
 	);
 };
