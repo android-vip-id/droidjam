@@ -4,7 +4,7 @@ import { Container } from '@/components/atoms';
 
 export const HomeAbout = () => {
 	return (
-		<section className="py-16">
+		<section className="py-16 md:py-20">
 			<Container>
 				<div className="grid lg:grid-cols-2 gap-12">
 					<div className="space-y-8 md:space-y-12">
