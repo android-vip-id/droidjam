@@ -31,15 +31,15 @@ export const MAIN_TOPICS = [
 	},
 	{
 		title: 'Kotlin',
-		icon: 'https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png',
+		icon: 'https://img.icons8.com/color/480/kotlin.png',
 		description:
-			'From guidance on architecture and testing, to deep dives into animation, lists or thinking in Compose, we have guides to help you get up to speed.',
+			'Learn a lot about Kotlin and the ecosystem in Android developer, to maintain code quality and follow best practices.',
 	},
 	{
 		title: 'Flutter',
-		icon: 'https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png',
+		icon: 'https://user-images.githubusercontent.com/51419598/152648731-567997ec-ac1c-4a9c-a816-a1fb1882abbe.png',
 		description:
-			'From guidance on architecture and testing, to deep dives into animation, lists or thinking in Compose, we have guides to help you get up to speed.',
+			'A talk session where the amazing speakers will explain Flutter and show the demonstration of it to get to know the topic much better.',
 	},
 ];
 
