@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.560c7647.css",
+    "main.js": "/static/js/main.47ace716.js",
+    "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
+    "static/media/droid-jam-logo.png": "/static/media/droid-jam-logo.a72baff71e58de99b799.png",
+    "static/media/banner-sky.svg": "/static/media/banner-sky.c2690fd6f4f29af7de6471002b955266.svg",
+    "index.html": "/index.html",
+    "main.560c7647.css.map": "/static/css/main.560c7647.css.map",
+    "main.47ace716.js.map": "/static/js/main.47ace716.js.map",
+    "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.560c7647.css",
+    "static/js/main.47ace716.js"
+  ]
+}
