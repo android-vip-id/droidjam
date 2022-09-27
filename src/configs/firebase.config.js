@@ -1,7 +1,7 @@
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js';
-import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js';
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
 
-export const firebaseConfig = {
+const firebaseConfig = {
 	apiKey: 'AIzaSyC3aQp-A7p_I-uoAOfFp7XdQaEIbaZ6pRQ',
 	authDomain: 'droidjam-f6a27.firebaseapp.com',
 	projectId: 'droidjam-f6a27',
