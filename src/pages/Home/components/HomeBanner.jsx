@@ -25,12 +25,9 @@ export const HomeBanner = () => {
 									alt="droid jam logo"
 								/>
 								<div className="space-y-6">
-									<div className="text-2xl lg:text-4xl xl:text-[2.5rem] font-semibold text-center text-white ">
+									<div className="text-2xl lg:text-4xl xl:text-[2.5rem] font-semibold text-center text-white">
 										Droidjam{' '}
-										<span
-											className="bg-gradient-to-br from-green-500 to-blue-500 bg-clip-text"
-											style={{ WebkitTextFillColor: 'transparent' }}
-										>
+										<span className="bg-gradient-primary bg-clip-text" style={{ WebkitTextFillColor: 'transparent' }}>
 											Indonesia
 										</span>{' '}
 										2022

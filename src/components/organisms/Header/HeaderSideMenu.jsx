@@ -41,6 +41,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
 						className="w-full text-center justify-center py-3"
 						href={DATA_EVENT.REGISTRATION_LINK}
 						onClick={onClose}
+						variant="primary"
 						text="Buy Tickets"
 						icon={<MdLaunch size={16} />}
 					/>

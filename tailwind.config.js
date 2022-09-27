@@ -10,6 +10,11 @@ module.exports = {
 			fontFamily: {
 				primary: ['"Inter"', 'sans-serif'],
 			},
+			backgroundImage: (theme) => ({
+				'gradient-primary': `linear-gradient(to bottom right, ${theme('colors.green.500')}, ${theme(
+					'colors.blue.500'
+				)})`,
+			}),
 		},
 	},
 	plugins: [
