@@ -49,6 +49,8 @@ export const HomeSpeakers = () => {
 										{speaker.socials.map((social) => (
 											<a
 												className="inline-block hover:text-blue-500 transition-all text-base md:text-xl"
+												target="_blank"
+												rel="noreferrer"
 												href={social.url}
 											>
 												{social.type === 'linkedin' && <ImLinkedin />}
