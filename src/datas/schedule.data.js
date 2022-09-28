@@ -26,8 +26,8 @@ export const DATA_SCHEDULE = [
 		pic: 'Event team',
 		speakers: [
 			{
-				name: DATA_SPEAKER.RENDRA_TORO.name,
-				data: DATA_SPEAKER.RENDRA_TORO,
+				name: DATA_SPEAKER['rendra-toro'].name,
+				data: DATA_SPEAKER['rendra-toro'],
 			},
 		],
 		title: null,
@@ -55,7 +55,7 @@ export const DATA_SCHEDULE = [
 		speakers: [
 			{
 				name: 'Angie Sasmita',
-				data: DATA_SPEAKER.ANGIE_SASMITA,
+				data: DATA_SPEAKER['angie-sasmita'],
 			},
 		],
 		title: 'Make your Android app come alive with Jetpack Compose Animation',
@@ -68,8 +68,8 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER.ANDREW_KURNIADI.name,
-				data: DATA_SPEAKER.ANDREW_KURNIADI,
+				name: DATA_SPEAKER['andrew-kurniadi'].name,
+				data: DATA_SPEAKER['andrew-kurniadi'],
 			},
 		],
 		title: 'Challenges in Building Android App for Large Screen',
@@ -83,7 +83,7 @@ export const DATA_SCHEDULE = [
 		speakers: [
 			{
 				name: 'Raditya Gumay',
-				data: DATA_SPEAKER.RADITYA_GUMAY,
+				data: DATA_SPEAKER['raditya-gumay'],
 			},
 		],
 		title: 'Shift left in respect to app performance improvement at Gojek',
@@ -96,12 +96,12 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER.MUH_ISFHANI_GHIATH.name,
-				data: DATA_SPEAKER.MUH_ISFHANI_GHIATH,
+				name: DATA_SPEAKER['muh-isfhani-ghiath'].name,
+				data: DATA_SPEAKER['muh-isfhani-ghiath'],
 			},
 			{
-				name: DATA_SPEAKER.DANANG_JUFFRY.name,
-				data: DATA_SPEAKER.DANANG_JUFFRY,
+				name: DATA_SPEAKER['danang-juffry'].name,
+				data: DATA_SPEAKER['danang-juffry'],
 			},
 		],
 		title: 'Juara Android',
@@ -137,8 +137,8 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER.BUDI_OKTAVIYAN.name,
-				data: DATA_SPEAKER.BUDI_OKTAVIYAN,
+				name: DATA_SPEAKER['budi-oktaviyan'].name,
+				data: DATA_SPEAKER['budi-oktaviyan'],
 			},
 		],
 		title: 'The Bazel Build System - A Grab Migration Experience',
@@ -166,7 +166,7 @@ export const DATA_SCHEDULE = [
 		speakers: [
 			{
 				name: 'Hakim Hauston',
-				data: DATA_SPEAKER.HAKIM_HAUSTON,
+				data: DATA_SPEAKER['hakim-hauston'],
 			},
 		],
 		title: null,
@@ -180,7 +180,7 @@ export const DATA_SCHEDULE = [
 		speakers: [
 			{
 				name: 'Angga Dwi Ariffandi',
-				data: DATA_SPEAKER.ANGGA_DWI_ARIFANDI,
+				data: DATA_SPEAKER['angga-dwi-arifandi'],
 			},
 		],
 		title: 'GraphQL in Flutter: Why and How',
@@ -193,12 +193,12 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER.KELVIN_WONG.name,
-				data: DATA_SPEAKER.KELVIN_WONG,
+				name: DATA_SPEAKER['kelvin-wong'].name,
+				data: DATA_SPEAKER['kelvin-wong'],
 			},
 			{
-				name: DATA_SPEAKER.GHIYATS_HANIF_ISKANDAR.name,
-				data: DATA_SPEAKER.GHIYATS_HANIF_ISKANDAR,
+				name: DATA_SPEAKER['ghiyats-hanif-iskandar'].name,
+				data: DATA_SPEAKER['ghiyats-hanif-iskandar'],
 			},
 		],
 		title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
@@ -211,8 +211,8 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER.MUH_RAHMATULLAH.name,
-				data: DATA_SPEAKER.MUH_RAHMATULLAH,
+				name: DATA_SPEAKER['muh-rahmatullah'].name,
+				data: DATA_SPEAKER['muh-rahmatullah'],
 			},
 		],
 		title: 'Experimenting with Flutter dynamic render',
@@ -234,8 +234,8 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER.ACHMAD_ILHAM.name,
-				data: DATA_SPEAKER.ACHMAD_ILHAM,
+				name: DATA_SPEAKER['achmad-ilham'].name,
+				data: DATA_SPEAKER['achmad-ilham'],
 			},
 		],
 		title: null,
@@ -248,8 +248,8 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER.RAMA_WIDRAGAMA_PUTRA.name,
-				data: DATA_SPEAKER.RAMA_WIDRAGAMA_PUTRA,
+				name: DATA_SPEAKER['rama-widragama-putra'].name,
+				data: DATA_SPEAKER['rama-widragama-putra'],
 			},
 		],
 		title: null,
