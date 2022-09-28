@@ -2,10 +2,14 @@ import { Fade } from 'react-reveal';
 import { Container } from '@/components/atoms';
 import { BannerPage, ScheduleList } from '@/components/organisms';
 import { DATA_EVENT } from '@/datas';
+import { Helmet } from 'react-helmet';
 
 export const Schedule = () => {
 	return (
 		<main>
+			<Helmet>
+				<title>{DATA_EVENT.TITLE} - Schedule</title>
+			</Helmet>
 			<BannerPage
 				title="Schedule"
 				description="Follow code demonstrations by our expert speakers. Check out the schedule below and don't forget to mark your calendar so that you don't miss out on any sessions."
