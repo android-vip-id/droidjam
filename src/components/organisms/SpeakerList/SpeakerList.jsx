@@ -11,7 +11,11 @@ export const SpeakerList = () => {
 					className="group bg-white shadow-md rounded-md overflow-hidden hover:shadow-lg transition-all flex flex-col"
 				>
 					<div className="relative aspect-1 border-b">
-						<img className="aspect-1 w-full h-full object-cover" src={speaker.avatar} alt={speaker.name} />
+						<img
+							className="aspect-1 w-full h-full object-cover"
+							src={speaker.avatar || 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg'}
+							alt={speaker.name}
+						/>
 						{speaker.bio && (
 							<div className="absolute left-0 top-0 w-full h-full bg-black bg-opacity-70 text-white p-5 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll text-sm">
 								{speaker.bio}

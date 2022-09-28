@@ -31,7 +31,7 @@ export const HomeSchedule = () => {
 										alt=""
 									/>
 									<div>
-										<div className="text-sm font-semibold">Angie Sasmita</div>
+										<div className="text-sm font-semibold">Droidjam Team</div>
 										<div className="text-xs">Android DevRel at Google</div>
 									</div>
 								</div>

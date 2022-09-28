@@ -43,7 +43,7 @@ export const DATA_SPEAKERS = {
 		designation: ['Engineering Manager at NBS'],
 		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
 		bio: 'Now i am in NBS as Engineering Manager, Before it, most of my time code for Mobile Platform and begin from Android.',
-		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
+		avatar: null,
 		socials: [
 			{
 				type: 'linkedin',
@@ -55,7 +55,7 @@ export const DATA_SPEAKERS = {
 		name: 'Rama Widragama Putra',
 		designation: ['Software Engineer Android at Tokopedia'],
 		talk_title: '',
-		bio: '',
+		bio: null,
 		avatar: require('@/images/speakers/rama.jpg'),
 		socials: [
 			{
@@ -64,12 +64,20 @@ export const DATA_SPEAKERS = {
 			},
 		],
 	},
+	RENDRA_TORO: {
+		name: 'Rendra Toro',
+		designation: [],
+		talk_title: '',
+		bio: null,
+		avatar: null,
+		socials: [],
+	},
 	BUDI_OKTAVIYAN: {
 		name: 'Budi Oktaviyan',
 		designation: ['Technical Lead at Grab', 'Google Developer Expert in Android'],
 		talk_title: 'The Bazel Build System - A Grab Migration Experience',
 		bio: 'Mobile Tech Industry Expertise with an Agility Mindset and 10+ years experience from various technology platforms. Tech Savvy, at the Leading of Everyday Everything Super Apps in Southeast Asia',
-		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
+		avatar: null,
 		socials: [
 			{
 				type: 'linkedin',
@@ -82,7 +90,7 @@ export const DATA_SPEAKERS = {
 		designation: ['Software Engineer at Tokopedia'],
 		talk_title: '#JuaraAndroid - Info Session',
 		bio: 'Isfa is a Senior Software Engineer Android with 3 years of Android Engineering experience.  He is currently working at Gojek, as part of the Driver team that focuses on delivering an impact for Gojek’s drivers across SEA. He is also working at Tokopedia, part of a media platform team that established Image and Video Processing in the Tokopedia ecosystem.',
-		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
+		avatar: null,
 		socials: [
 			{
 				type: 'linkedin',
@@ -90,28 +98,36 @@ export const DATA_SPEAKERS = {
 			},
 		],
 	},
+	DANANG_JUFFRY: {
+		name: 'Danang Juffry',
+		designation: [],
+		talk_title: '#JuaraAndroid - Info Session',
+		bio: null,
+		avatar: null,
+		socials: [],
+	},
 	GHIYATS_HANIF_ISKANDAR: {
 		name: 'Ghiyats Hanif Iskandar',
 		designation: ['VP Mobile Engineer at NBS'],
 		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
-		bio: '',
-		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
+		bio: null,
+		avatar: null,
 		socials: [],
 	},
 	ANDREW_KURNIADI: {
 		name: 'Andrew Kurniadi',
 		designation: ['CEO at Lumio.id', 'Google Developer Expert in Android'],
 		talk_title: 'Challenges in Building Android App for Large Screen',
-		bio: '',
-		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
+		bio: null,
+		avatar: null,
 		socials: [],
 	},
 	ACHMAD_ILHAM: {
 		name: 'Achmad Ilham',
 		designation: ['Senior Android Engineer at Twitter', 'Google Developer Expert in Android'],
 		talk_title: '',
-		bio: '',
-		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
+		bio: null,
+		avatar: null,
 		socials: [],
 	},
 	MUH_RAHMATULLAH: {
