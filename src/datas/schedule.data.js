@@ -223,12 +223,7 @@ export const DATA_SCHEDULE = [
 		duration: '30',
 		agenda: 'Break',
 		pic: 'Logistic Team',
-		speakers: [
-			{
-				name: '',
-				data: null,
-			},
-		],
+		speakers: [],
 		title: null,
 		organization: '',
 	},
