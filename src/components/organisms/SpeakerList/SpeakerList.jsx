@@ -1,6 +1,5 @@
-import { DATA_SPEAKERS_ARRAY } from '@/datas';
-import React from 'react';
 import { ImLinkedin } from 'react-icons/im';
+import { DATA_SPEAKERS_ARRAY } from '@/datas';
 
 export const SpeakerList = () => {
 	return (

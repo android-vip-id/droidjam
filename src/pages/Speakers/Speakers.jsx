@@ -1,4 +1,5 @@
 import { BannerPage, SpeakerList } from '@/components/organisms';
+import { Fade } from 'react-reveal';
 
 export const Speakers = () => {
 	return (
@@ -9,11 +10,13 @@ export const Speakers = () => {
 						organisations, cities, country and beyond."
 			/>
 
-			<section className="bg-gray-200 py-20">
-				<div className="container max-w-screen-2xl">
-					<SpeakerList />
-				</div>
-			</section>
+			<Fade>
+				<section className="bg-gray-200 py-20">
+					<div className="container max-w-screen-2xl">
+						<SpeakerList />
+					</div>
+				</section>
+			</Fade>
 		</main>
 	);
 };
