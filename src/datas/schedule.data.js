@@ -26,7 +26,7 @@ export const DATA_SCHEDULE = [
 		pic: 'Event team',
 		speakers: [
 			{
-				name: 'Rendra Toro',
+				name: DATA_SPEAKER.RENDRA_TORO.name,
 				data: DATA_SPEAKER.RENDRA_TORO,
 			},
 		],
@@ -166,7 +166,7 @@ export const DATA_SCHEDULE = [
 		speakers: [
 			{
 				name: 'Hakim Hauston',
-				data: null,
+				data: DATA_SPEAKER.HAKIM_HAUSTON,
 			},
 		],
 		title: null,

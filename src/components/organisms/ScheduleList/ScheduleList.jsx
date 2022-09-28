@@ -18,22 +18,27 @@ export const ScheduleList = () => {
 						{schedule.speakers && (
 							<div className="flex flex-wrap gap-1 md:gap-2">
 								{schedule.speakers.map((speaker) => (
-									<div
-										className={`inline-flex items-center space-x-2 bg-gradient-primary ${
-											speaker.data?.avatar ? 'pr-3' : 'px-3 py-1'
-										}  rounded-full text-white cursor-pointer`}
-									>
-										{speaker.data?.avatar && (
-											<img
-												className="aspect-1 w-6 object-cover rounded-full"
-												src={speaker.data?.avatar}
-												alt={speaker.name}
-											/>
+									<>
+										{!speaker.data && <div className="text-sm">{speaker.name}</div>}
+										{speaker.data && (
+											<div
+												className={`inline-flex items-center space-x-2 bg-gradient-primary ${
+													speaker.data?.avatar ? 'pr-3' : 'px-3 py-1'
+												}  rounded-full text-white cursor-pointer`}
+											>
+												{speaker.data?.avatar && (
+													<img
+														className="aspect-1 w-6 object-cover rounded-full"
+														src={speaker.data?.avatar}
+														alt={speaker.name}
+													/>
+												)}
+												<div>
+													<div className="text-xs font-semibold">{speaker.name}</div>
+												</div>
+											</div>
 										)}
-										<div>
-											<div className="text-xs font-semibold">{speaker.name}</div>
-										</div>
-									</div>
+									</>
 								))}
 							</div>
 						)}

@@ -38,12 +38,20 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
+	HAKIM_HAUSTON: {
+		name: 'Hakim Hauston',
+		designation: [],
+		talk_title: '',
+		bio: '',
+		avatar: require('@/images/speakers/Hakim.jpg'),
+		socials: [],
+	},
 	KELVIN_WONG: {
 		name: 'Kelvin Wong',
 		designation: ['Engineering Manager at NBS'],
 		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
 		bio: 'Now i am in NBS as Engineering Manager, Before it, most of my time code for Mobile Platform and begin from Android.',
-		avatar: null,
+		avatar: require('@/images/speakers/Kelvin.png'),
 		socials: [
 			{
 				type: 'linkedin',
@@ -69,7 +77,7 @@ export const DATA_SPEAKER = {
 		designation: [],
 		talk_title: '',
 		bio: null,
-		avatar: null,
+		avatar: require('@/images/speakers/rendra.jpg'),
 		socials: [],
 	},
 	BUDI_OKTAVIYAN: {
@@ -77,7 +85,7 @@ export const DATA_SPEAKER = {
 		designation: ['Technical Lead at Grab', 'Google Developer Expert in Android'],
 		talk_title: 'The Bazel Build System - A Grab Migration Experience',
 		bio: 'Mobile Tech Industry Expertise with an Agility Mindset and 10+ years experience from various technology platforms. Tech Savvy, at the Leading of Everyday Everything Super Apps in Southeast Asia',
-		avatar: null,
+		avatar: require('@/images/speakers/budioktaviyans.jpg'),
 		socials: [
 			{
 				type: 'linkedin',
@@ -90,7 +98,7 @@ export const DATA_SPEAKER = {
 		designation: ['Software Engineer at Tokopedia'],
 		talk_title: '#JuaraAndroid - Info Session',
 		bio: 'Isfa is a Senior Software Engineer Android with 3 years of Android Engineering experience.  He is currently working at Gojek, as part of the Driver team that focuses on delivering an impact for Gojek’s drivers across SEA. He is also working at Tokopedia, part of a media platform team that established Image and Video Processing in the Tokopedia ecosystem.',
-		avatar: null,
+		avatar: require('@/images/speakers/isfha.jpeg'),
 		socials: [
 			{
 				type: 'linkedin',
@@ -103,7 +111,7 @@ export const DATA_SPEAKER = {
 		designation: [],
 		talk_title: '#JuaraAndroid - Info Session',
 		bio: null,
-		avatar: null,
+		avatar: require('@/images/speakers/danang-juffry.webp'),
 		socials: [],
 	},
 	GHIYATS_HANIF_ISKANDAR: {
@@ -111,15 +119,20 @@ export const DATA_SPEAKER = {
 		designation: ['VP Mobile Engineer at NBS'],
 		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
 		bio: null,
-		avatar: null,
-		socials: [],
+		avatar: require('@/images/speakers/ghiyats.webp'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/ghiyatshanif/',
+			},
+		],
 	},
 	ANDREW_KURNIADI: {
 		name: 'Andrew Kurniadi',
 		designation: ['CEO at Lumio.id', 'Google Developer Expert in Android'],
 		talk_title: 'Challenges in Building Android App for Large Screen',
 		bio: null,
-		avatar: null,
+		avatar: require('@/images/speakers/andrew.webp'),
 		socials: [],
 	},
 	ACHMAD_ILHAM: {
@@ -140,6 +153,19 @@ export const DATA_SPEAKER = {
 			{
 				type: 'linkedin',
 				url: 'https://www.linkedin.com/in/muh-rahmatullah-51b675137/',
+			},
+		],
+	},
+	DJAKA_PRADANA_JAYA_PRIAMBUDI: {
+		name: 'Djaka Pradana Jaya Priambudi',
+		designation: ['Software Engineer'],
+		talk_title: 'Compose (not a compose UI) for Business Logic',
+		bio: 'A software engineer that focuses on Android Development. Loves solving problem, started to programming since early 2016 and started freelancing since late 2017',
+		avatar: require('@/images/speakers/djaka-tvlk.jpeg'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/djakatechnology',
 			},
 		],
 	},
