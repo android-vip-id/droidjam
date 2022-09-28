@@ -16,7 +16,7 @@ export const Speaker = () => {
 			/>
 
 			<Fade>
-				<section className="bg-gray-200 py-20">
+				<section className="bg-gray-100 py-20">
 					<div className="container max-w-screen-2xl">
 						<SpeakerList />
 					</div>

@@ -1,10 +1,11 @@
+import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 import { HomeAbout } from './components/HomeAbout';
 import { HomeSchedule } from './components/HomeSchedule';
 import { HomeBanner } from './components/HomeBanner';
 import { HomeLocation } from './components/HomeLocation';
 import { HomeSpeakers } from './components/HomeSpeakers';
-import { Helmet } from 'react-helmet';
+import { HomePartnership } from './components/HomePartnership';
 import { DATA_EVENT } from '@/datas';
 
 export const Home = () => {
@@ -17,6 +18,10 @@ export const Home = () => {
 
 			<Fade>
 				<HomeAbout />
+			</Fade>
+
+			<Fade>
+				<HomePartnership />
 			</Fade>
 
 			<Fade>

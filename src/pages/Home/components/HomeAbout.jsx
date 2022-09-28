@@ -4,7 +4,7 @@ import { Container } from '@/components/atoms';
 
 export const HomeAbout = () => {
 	return (
-		<section className="py-16 md:py-20">
+		<section className="py-16 md:py-20 bg-gray-50">
 			<Container>
 				<div className="grid lg:grid-cols-2 gap-12">
 					<div className="space-y-8 md:space-y-12">
@@ -48,7 +48,7 @@ export const HomeAbout = () => {
 
 					<div className="flex flex-col space-y-3 ">
 						{DATA_EVENT.MAIN_TOPICS.map((topic) => (
-							<div key={topic.title} className="flex items-start border rounded-md bg-gray-200 p-4 space-x-3">
+							<div key={topic.title} className="flex items-start border rounded-md bg-white p-4 space-x-3">
 								<img className="w-8" src={topic.icon} alt={topic.title} />
 								<div>
 									<div className="font-semibold py-1 text-lg">{topic.title}</div>

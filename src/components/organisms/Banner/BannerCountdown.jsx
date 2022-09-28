@@ -85,7 +85,7 @@ export const BannerCountdown = () => {
 						</div>
 
 						<a
-							className="flex text-sm items-center space-x-3 px-6 py-3 font-semibold text-center transition-all bg-white hover:bg-gray-200 rounded-md text-black"
+							className="flex text-sm items-center space-x-3 px-6 py-3 font-semibold text-center transition-all bg-white hover:bg-gray-100 rounded-md text-black"
 							href={DATA_EVENT.REGISTRATION_LINK}
 							target="_blank"
 							rel="noreferrer"

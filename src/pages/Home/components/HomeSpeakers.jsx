@@ -4,7 +4,7 @@ import { SpeakerList } from '@/components/organisms';
 export const HomeSpeakers = () => {
 	return (
 		<section>
-			<div className="bg-gray-200 py-16 md:py-20 space-y-20">
+			<div className="bg-gray-100 py-16 md:py-20 space-y-20">
 				<Container>
 					<div className="text-center space-y-5">
 						<h1 className="font-bold space-y-2">

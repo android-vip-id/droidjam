@@ -94,8 +94,6 @@ export const HomeBanner = () => {
 					</Container>
 				</Fade>
 			</div>
-
-			<SectionBorder position="bottom" />
 		</section>
 	);
 };
