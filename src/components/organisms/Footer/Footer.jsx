@@ -8,7 +8,7 @@ export const Footer = () => {
 			<div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full">
 				<img
 					className="w-full h-full object-cover"
-					src={require('@/images/samples/indosat-ooredoo.png')}
+					src={require('@/images/samples/indosat-auditorium.png')}
 					alt="Indosat Ooredoo"
 				/>
 			</div>
