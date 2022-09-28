@@ -1,7 +1,9 @@
 import { DATA_SPEAKER } from './speaker.data';
+import { v4 as uuidv4 } from 'uuid';
 
 export const DATA_SCHEDULE = [
 	{
+		uuid: uuidv4(),
 		time: '09.00 - 09.30',
 		duration: '30',
 		agenda: 'Audience Reception',
@@ -11,6 +13,7 @@ export const DATA_SCHEDULE = [
 		organization: null,
 	},
 	{
+		uuid: uuidv4(),
 		time: '09.30 - 09.35',
 		duration: '5',
 		agenda: 'Opening',
@@ -20,6 +23,7 @@ export const DATA_SCHEDULE = [
 		organization: null,
 	},
 	{
+		uuid: uuidv4(),
 		time: '09.35 - 09.45',
 		duration: '10',
 		agenda: 'Opening',
@@ -34,6 +38,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Android VIP',
 	},
 	{
+		uuid: uuidv4(),
 		time: '09.45 - 10.00',
 		duration: '15',
 		agenda: 'Opening from Indosat',
@@ -48,6 +53,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Indosat',
 	},
 	{
+		uuid: uuidv4(),
 		time: '10.00 - 10.30',
 		duration: '30',
 		agenda: 'Talk #1 (Keynote)',
@@ -62,6 +68,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Google',
 	},
 	{
+		uuid: uuidv4(),
 		time: '10.30 - 11.00',
 		duration: '30',
 		agenda: 'Talk #2',
@@ -76,6 +83,7 @@ export const DATA_SCHEDULE = [
 		organization: 'GDE/Lumio',
 	},
 	{
+		uuid: uuidv4(),
 		time: '11.00 - 11.30',
 		duration: '30',
 		agenda: 'Talk #3',
@@ -90,6 +98,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Gojek',
 	},
 	{
+		uuid: uuidv4(),
 		time: '11.30 - 12.00',
 		duration: '30',
 		agenda: 'Talk #4',
@@ -108,6 +117,7 @@ export const DATA_SCHEDULE = [
 		organization: 'GoTo and Google',
 	},
 	{
+		uuid: uuidv4(),
 		time: '12.00 - 12.45',
 		duration: '45',
 		agenda: 'Break',
@@ -117,6 +127,7 @@ export const DATA_SCHEDULE = [
 		organization: '',
 	},
 	{
+		uuid: uuidv4(),
 		time: '12.45 - 13.00',
 		duration: '15',
 		agenda: 'Ice Breaking',
@@ -131,6 +142,7 @@ export const DATA_SCHEDULE = [
 		organization: '',
 	},
 	{
+		uuid: uuidv4(),
 		time: '13.00 - 13.30',
 		duration: '30',
 		agenda: 'Talk #5',
@@ -145,6 +157,7 @@ export const DATA_SCHEDULE = [
 		organization: 'GDE/Grab',
 	},
 	{
+		uuid: uuidv4(),
 		time: '13.30 - 14.00',
 		duration: '30',
 		agenda: 'Talk #6',
@@ -159,6 +172,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Traveloka',
 	},
 	{
+		uuid: uuidv4(),
 		time: '14.00 - 14.30',
 		duration: '30',
 		agenda: 'Talk #7',
@@ -173,6 +187,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Google',
 	},
 	{
+		uuid: uuidv4(),
 		time: '14.30 - 15.00',
 		duration: '30',
 		agenda: 'Talk #8',
@@ -187,6 +202,7 @@ export const DATA_SCHEDULE = [
 		organization: 'GDE/Rock',
 	},
 	{
+		uuid: uuidv4(),
 		time: '15.00 - 15.30',
 		duration: '30',
 		agenda: 'Talk #9',
@@ -205,6 +221,7 @@ export const DATA_SCHEDULE = [
 		organization: 'NBS',
 	},
 	{
+		uuid: uuidv4(),
 		time: '15.30 - 16.00',
 		duration: '30',
 		agenda: 'Talk #10',
@@ -219,6 +236,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Grab',
 	},
 	{
+		uuid: uuidv4(),
 		time: '16.00 - 16.30',
 		duration: '30',
 		agenda: 'Break',
@@ -228,6 +246,7 @@ export const DATA_SCHEDULE = [
 		organization: '',
 	},
 	{
+		uuid: uuidv4(),
 		time: '16.30 - 17.00',
 		duration: '30',
 		agenda: 'Talk #11',
@@ -242,6 +261,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Dicoding',
 	},
 	{
+		uuid: uuidv4(),
 		time: '17.00 - 17.30',
 		duration: '30',
 		agenda: 'Talk #12',
@@ -256,6 +276,7 @@ export const DATA_SCHEDULE = [
 		organization: 'Tokopedia',
 	},
 	{
+		uuid: uuidv4(),
 		time: '17.30 - 18.00',
 		duration: '30',
 		agenda: 'Fireside Chat',
