@@ -21,7 +21,7 @@ export const LOCATION = {
 	LABEL: 'Indosat Auditorium',
 	ADDRESS:
 		'Jl. Medan Merdeka Barat No.21, RT.2/RW.3, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110',
-	URL: 'https://g.page/pt--indosat-tbk?share',
+	URL: 'https://www.google.com/maps/place/Indosat+Ooredoo/@-6.1801157,106.8214289,17z/data=!4m12!1m6!3m5!1s0x2e69f42bb972a2c3:0x274be05db2df2116!2sIndosat+Ooredoo!8m2!3d-6.1801157!4d106.8214289!3m4!1s0x2e69f42bb972a2c3:0x274be05db2df2116!8m2!3d-6.1801157!4d106.8214289',
 };
 
 export const MAIN_TOPICS = [
