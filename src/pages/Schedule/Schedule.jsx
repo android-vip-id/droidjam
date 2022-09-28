@@ -13,9 +13,13 @@ export const Schedule = () => {
 				onClickButton={() => window.open(DATA_EVENT.CALENDAR.REMINDER_URL, '_blank')}
 			/>
 			<Fade>
-				<Container className="py-20">
-					<ScheduleList />
-				</Container>
+				<div className="bg-gray-100">
+					<Container className="py-20">
+						<div className="bg-white p-3 shadow-md rounded-md">
+							<ScheduleList />
+						</div>
+					</Container>
+				</div>
 			</Fade>
 		</main>
 	);

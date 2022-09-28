@@ -8,9 +8,7 @@ import { HomeSpeakers } from './components/HomeSpeakers';
 export const Home = () => {
 	return (
 		<main>
-			<Fade>
-				<HomeBanner />
-			</Fade>
+			<HomeBanner />
 
 			<Fade>
 				<HomeAbout />

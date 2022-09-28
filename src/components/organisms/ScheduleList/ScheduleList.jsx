@@ -4,12 +4,12 @@ export const ScheduleList = () => {
 	return (
 		<div>
 			{DATA_SCHEDULE.map((schedule) => (
-				<div className="flex border-b">
-					<div className="p-4 border-r text-right">
+				<div className="grid grid-cols-12 border-b last:border-none">
+					<div className="col-span-2 p-4 border-r text-right">
 						<div className="font-semibold text-lg">{schedule.time}</div>
 						<div className="text-xs">{schedule.duration} min(s)</div>
 					</div>
-					<div className="p-4 space-y-3">
+					<div className="col-span-10 p-4 space-y-3">
 						<div>
 							<div className="font-semibold text-sm">{schedule.agenda}</div>
 							<div className="font-semibold text-lg">{schedule.title}</div>
