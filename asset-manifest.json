@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.4175854c.css",
-    "main.js": "/static/js/main.704f3dbd.js",
+    "main.css": "/static/css/main.cd9f68c4.css",
+    "main.js": "/static/js/main.822171f8.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
+    "static/media/grab.png": "/static/media/grab.33ff9440a1947ad5308f.png",
     "static/media/Angga.png": "/static/media/Angga.96ea6e5fb8891b29d1a1.png",
+    "static/media/gojek.png": "/static/media/gojek.315b3f3cb16133e25b8d.png",
     "static/media/rahmat.jpg": "/static/media/rahmat.a950e7dd6724da01d0e1.jpg",
     "static/media/indosat-auditorium.png": "/static/media/indosat-auditorium.03c50e715bba492d0f04.png",
     "static/media/AngieSasmita.jpg": "/static/media/AngieSasmita.2d7d60732e3f4f6469eb.jpg",
@@ -28,12 +30,12 @@
     "index.html": "/index.html",
     "static/media/shape-1-bottom.svg": "/static/media/shape-1-bottom.039e96451841b52376ea.svg",
     "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
-    "main.4175854c.css.map": "/static/css/main.4175854c.css.map",
-    "main.704f3dbd.js.map": "/static/js/main.704f3dbd.js.map",
+    "main.cd9f68c4.css.map": "/static/css/main.cd9f68c4.css.map",
+    "main.822171f8.js.map": "/static/js/main.822171f8.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4175854c.css",
-    "static/js/main.704f3dbd.js"
+    "static/css/main.cd9f68c4.css",
+    "static/js/main.822171f8.js"
   ]
 }
