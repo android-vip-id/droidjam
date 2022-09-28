@@ -16,9 +16,9 @@ export const ScheduleList = () => {
 						</div>
 
 						{schedule.speakers && (
-							<div className="flex flex-wrap gap-1 md:gap-2">
+							<div className="flex flex-wrap">
 								{schedule.speakers.map((speaker) => (
-									<>
+									<div key={speaker.name} className="gap-1 md:gap-2">
 										{!speaker.data && <div className="text-sm">{speaker.name}</div>}
 										{speaker.data && (
 											<div
@@ -38,7 +38,7 @@ export const ScheduleList = () => {
 												</div>
 											</div>
 										)}
-									</>
+									</div>
 								))}
 							</div>
 						)}

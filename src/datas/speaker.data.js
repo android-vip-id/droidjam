@@ -1,5 +1,6 @@
 export const DATA_SPEAKER = {
-	RADITYA_GUMAY: {
+	'raditya-gumay': {
+		key: 'raditya-gumay',
 		name: 'Raditya Gumay',
 		designation: ['Senior Principal Engineer at Gojek'],
 		talk_title: 'Shift left in respect to app performance improvement at Gojek',
@@ -12,7 +13,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	ANGIE_SASMITA: {
+	'angie-sasmita': {
+		key: 'angie-sasmita',
 		name: 'Angie Sasmita',
 		designation: ['Android DevRel at Google'],
 		talk_title: 'Make your Android app come alive with Jetpack Compose Animation',
@@ -25,7 +27,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	ANGGA_DWI_ARIFANDI: {
+	'angga-dwi-arifandi': {
+		key: 'angga-dwi-arifandi',
 		name: 'Angga Dwi Arifandi',
 		designation: ['Mobile Engineer at Rock', 'Google Developer Expert in Flutter'],
 		talk_title: 'GraphQL in Flutter: Why and How',
@@ -38,7 +41,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	HAKIM_HAUSTON: {
+	'hakim-hauston': {
+		key: 'hakim-hauston',
 		name: 'Hakim Hauston',
 		designation: [],
 		talk_title: '',
@@ -46,7 +50,8 @@ export const DATA_SPEAKER = {
 		avatar: require('@/images/speakers/Hakim.jpg'),
 		socials: [],
 	},
-	KELVIN_WONG: {
+	'kelvin-wong': {
+		key: 'kelvin-wong',
 		name: 'Kelvin Wong',
 		designation: ['Engineering Manager at NBS'],
 		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
@@ -59,7 +64,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	RAMA_WIDRAGAMA_PUTRA: {
+	'rama-widragama-putra': {
+		key: 'rama-widragama-putra',
 		name: 'Rama Widragama Putra',
 		designation: ['Software Engineer Android at Tokopedia'],
 		talk_title: '',
@@ -72,7 +78,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	RENDRA_TORO: {
+	'rendra-toro': {
+		key: 'rendra-toro',
 		name: 'Rendra Toro',
 		designation: [],
 		talk_title: '',
@@ -80,7 +87,8 @@ export const DATA_SPEAKER = {
 		avatar: require('@/images/speakers/rendra.jpg'),
 		socials: [],
 	},
-	BUDI_OKTAVIYAN: {
+	'budi-oktaviyan': {
+		key: 'budi-oktaviyan',
 		name: 'Budi Oktaviyan',
 		designation: ['Technical Lead at Grab', 'Google Developer Expert in Android'],
 		talk_title: 'The Bazel Build System - A Grab Migration Experience',
@@ -93,7 +101,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	MUH_ISFHANI_GHIATH: {
+	'muh-isfhani-ghiath': {
+		key: 'muh-isfhani-ghiath',
 		name: 'Muh Isfhani Ghiath',
 		designation: ['Software Engineer at Tokopedia'],
 		talk_title: '#JuaraAndroid - Info Session',
@@ -106,7 +115,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	DANANG_JUFFRY: {
+	'danang-juffry': {
+		key: 'danang-juffry',
 		name: 'Danang Juffry',
 		designation: [],
 		talk_title: '#JuaraAndroid - Info Session',
@@ -114,7 +124,8 @@ export const DATA_SPEAKER = {
 		avatar: require('@/images/speakers/danang-juffry.webp'),
 		socials: [],
 	},
-	GHIYATS_HANIF_ISKANDAR: {
+	'ghiyats-hanif-iskandar': {
+		key: 'ghiyats-hanif-iskandar',
 		name: 'Ghiyats Hanif Iskandar',
 		designation: ['VP Mobile Engineer at NBS'],
 		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
@@ -127,7 +138,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	ANDREW_KURNIADI: {
+	'andrew-kurniadi': {
+		key: 'andrew-kurniadi',
 		name: 'Andrew Kurniadi',
 		designation: ['CEO at Lumio.id', 'Google Developer Expert in Android'],
 		talk_title: 'Challenges in Building Android App for Large Screen',
@@ -135,7 +147,8 @@ export const DATA_SPEAKER = {
 		avatar: require('@/images/speakers/andrew.webp'),
 		socials: [],
 	},
-	ACHMAD_ILHAM: {
+	'achmad-ilham': {
+		key: 'achmad-ilham',
 		name: 'Achmad Ilham',
 		designation: ['Senior Android Engineer at Twitter', 'Google Developer Expert in Android'],
 		talk_title: '',
@@ -143,7 +156,8 @@ export const DATA_SPEAKER = {
 		avatar: null,
 		socials: [],
 	},
-	MUH_RAHMATULLAH: {
+	'muh-rahmatullah': {
+		key: 'muh-rahmatullah',
 		name: 'Muh Rahmatullah',
 		designation: ['Senior Software Engineer at Grab'],
 		talk_title: 'Experimenting with Flutter dynamic render',
@@ -156,7 +170,8 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	DJAKA_PRADANA_JAYA_PRIAMBUDI: {
+	'djaka-pradana-jaya-priambudi': {
+		key: 'djaka-pradana-jaya-priambudi',
 		name: 'Djaka Pradana Jaya Priambudi',
 		designation: ['Software Engineer'],
 		talk_title: 'Compose (not a compose UI) for Business Logic',
