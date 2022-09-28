@@ -1,11 +1,11 @@
-import { DATA_SPEAKERS } from '@/datas';
+import { DATA_SPEAKERS_ARRAY } from '@/datas';
 import React from 'react';
 import { ImLinkedin } from 'react-icons/im';
 
 export const SpeakerList = () => {
 	return (
 		<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-			{DATA_SPEAKERS.map((speaker) => (
+			{DATA_SPEAKERS_ARRAY.map((speaker) => (
 				<div
 					key={speaker.name}
 					className="group bg-white shadow-md rounded-md overflow-hidden hover:shadow-lg transition-all flex flex-col"
@@ -13,7 +13,7 @@ export const SpeakerList = () => {
 					<div className="relative aspect-1 border-b">
 						<img className="aspect-1 w-full h-full object-cover" src={speaker.avatar} alt={speaker.name} />
 						{speaker.bio && (
-							<div className="absolute left-0 top-0 w-full h-full bg-black bg-opacity-70 text-white p-4 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll">
+							<div className="absolute left-0 top-0 w-full h-full bg-black bg-opacity-70 text-white p-5 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll text-sm">
 								{speaker.bio}
 							</div>
 						)}

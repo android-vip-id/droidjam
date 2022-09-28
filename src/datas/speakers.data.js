@@ -1,5 +1,5 @@
-export const DATA_SPEAKERS = [
-	{
+export const DATA_SPEAKERS = {
+	RADITYA_GUMAY: {
 		name: 'Raditya Gumay',
 		designation: ['Senior Principal Engineer at Gojek'],
 		talk_title: 'Shift left in respect to app performance improvement at Gojek',
@@ -12,7 +12,7 @@ export const DATA_SPEAKERS = [
 			},
 		],
 	},
-	{
+	ANGIE_SASMITA: {
 		name: 'Angie Sasmita',
 		designation: ['Android DevRel at Google'],
 		talk_title: 'Make your Android app come alive with Jetpack Compose Animation',
@@ -25,7 +25,7 @@ export const DATA_SPEAKERS = [
 			},
 		],
 	},
-	{
+	ANGGA_DWI_ARIFANDI: {
 		name: 'Angga Dwi Arifandi',
 		designation: ['Mobile Engineer at Rock', 'Google Developer Expert in Flutter'],
 		talk_title: 'GraphQL in Flutter: Why and How',
@@ -38,7 +38,7 @@ export const DATA_SPEAKERS = [
 			},
 		],
 	},
-	{
+	KELVIN_WONG: {
 		name: 'Kelvin Wong',
 		designation: ['Engineering Manager at NBS'],
 		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
@@ -51,7 +51,7 @@ export const DATA_SPEAKERS = [
 			},
 		],
 	},
-	{
+	RAMA_WIDRAGAMA_PUTRA: {
 		name: 'Rama Widragama Putra',
 		designation: ['Software Engineer Android at Tokopedia'],
 		talk_title: '',
@@ -64,7 +64,7 @@ export const DATA_SPEAKERS = [
 			},
 		],
 	},
-	{
+	BUDI_OKTAVIYAN: {
 		name: 'Budi Oktaviyan',
 		designation: ['Technical Lead at Grab', 'Google Developer Expert in Android'],
 		talk_title: 'The Bazel Build System - A Grab Migration Experience',
@@ -77,7 +77,7 @@ export const DATA_SPEAKERS = [
 			},
 		],
 	},
-	{
+	MUH_ISFHANI_GHIATH: {
 		name: 'Muh Isfhani Ghiath',
 		designation: ['Software Engineer at Tokopedia'],
 		talk_title: '#JuaraAndroid - Info Session',
@@ -90,7 +90,7 @@ export const DATA_SPEAKERS = [
 			},
 		],
 	},
-	{
+	GHIYATS_HANIF_ISKANDAR: {
 		name: 'Ghiyats Hanif Iskandar',
 		designation: ['VP Mobile Engineer at NBS'],
 		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
@@ -98,7 +98,7 @@ export const DATA_SPEAKERS = [
 		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
 		socials: [],
 	},
-	{
+	ANDREW_KURNIADI: {
 		name: 'Andrew Kurniadi',
 		designation: ['CEO at Lumio.id', 'Google Developer Expert in Android'],
 		talk_title: 'Challenges in Building Android App for Large Screen',
@@ -106,7 +106,7 @@ export const DATA_SPEAKERS = [
 		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
 		socials: [],
 	},
-	{
+	ACHMAD_ILHAM: {
 		name: 'Achmad Ilham',
 		designation: ['Senior Android Engineer at Twitter', 'Google Developer Expert in Android'],
 		talk_title: '',
@@ -114,7 +114,7 @@ export const DATA_SPEAKERS = [
 		avatar: 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg',
 		socials: [],
 	},
-	{
+	MUH_RAHMATULLAH: {
 		name: 'Muh Rahmatullah',
 		designation: ['Senior Software Engineer at Grab'],
 		talk_title: 'Experimenting with Flutter dynamic render',
@@ -127,4 +127,6 @@ export const DATA_SPEAKERS = [
 			},
 		],
 	},
-];
+};
+
+export const DATA_SPEAKERS_ARRAY = Object.values(DATA_SPEAKERS);
