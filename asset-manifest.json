@@ -1,26 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7eda96d.css",
-    "main.js": "/static/js/main.d9433c92.js",
+    "main.css": "/static/css/main.4175854c.css",
+    "main.js": "/static/js/main.704f3dbd.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
     "static/media/Angga.png": "/static/media/Angga.96ea6e5fb8891b29d1a1.png",
     "static/media/rahmat.jpg": "/static/media/rahmat.a950e7dd6724da01d0e1.jpg",
-    "static/media/indosat-ooredoo.png": "/static/media/indosat-ooredoo.93d94bca713fad16416d.png",
+    "static/media/indosat-auditorium.png": "/static/media/indosat-auditorium.03c50e715bba492d0f04.png",
     "static/media/AngieSasmita.jpg": "/static/media/AngieSasmita.2d7d60732e3f4f6469eb.jpg",
+    "static/media/Kelvin.png": "/static/media/Kelvin.71ebd162ad742ecab70d.png",
+    "static/media/isfha.jpeg": "/static/media/isfha.c11565e0ee11c3ccac1d.jpeg",
     "static/media/RadityaGumay.jpeg": "/static/media/RadityaGumay.f5746a3c360a0ffb2fb1.jpeg",
     "static/media/rama.jpg": "/static/media/rama.d584bbadbb65f866ee78.jpg",
+    "static/media/budioktaviyans.jpg": "/static/media/budioktaviyans.f9bb9edd2593d805032b.jpg",
+    "static/media/aej.png": "/static/media/aej.cbe1dfc76eb630d05d5c.png",
+    "static/media/jagoan-hosting.png": "/static/media/jagoan-hosting.e10015e64c0ebeba3d8a.png",
+    "static/media/djaka-tvlk.jpeg": "/static/media/djaka-tvlk.f1d3078cc73f98c7bd89.jpeg",
     "static/media/droid-jam-logo-square.png": "/static/media/droid-jam-logo-square.a72baff71e58de99b799.png",
+    "static/media/adb.jpg": "/static/media/adb.5986a60670d0755f9d72.jpg",
     "static/media/droid-jam-logo.png": "/static/media/droid-jam-logo.fcd072362e048463a02a.png",
+    "static/media/andrew.webp": "/static/media/andrew.f185170604956e4054b2.webp",
+    "static/media/Hakim.jpg": "/static/media/Hakim.c98729c7616cefe73e8b.jpg",
     "static/media/banner-sky.svg": "/static/media/banner-sky.cb782f88642c8787dd839d9d9129d94f.svg",
+    "static/media/android-vip.png": "/static/media/android-vip.8dea5fab56cce981f657.png",
+    "static/media/gdg-jakarta.png": "/static/media/gdg-jakarta.21a1da822cef29d45f8c.png",
+    "static/media/danang-juffry.webp": "/static/media/danang-juffry.8599d6634d782f3d1f19.webp",
+    "static/media/ghiyats.webp": "/static/media/ghiyats.88bd7ba675bd5c31ae83.webp",
     "index.html": "/index.html",
     "static/media/shape-1-bottom.svg": "/static/media/shape-1-bottom.039e96451841b52376ea.svg",
     "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
-    "main.d7eda96d.css.map": "/static/css/main.d7eda96d.css.map",
-    "main.d9433c92.js.map": "/static/js/main.d9433c92.js.map",
+    "main.4175854c.css.map": "/static/css/main.4175854c.css.map",
+    "main.704f3dbd.js.map": "/static/js/main.704f3dbd.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7eda96d.css",
-    "static/js/main.d9433c92.js"
+    "static/css/main.4175854c.css",
+    "static/js/main.704f3dbd.js"
   ]
 }
