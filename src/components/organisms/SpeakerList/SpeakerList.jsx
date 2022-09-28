@@ -1,12 +1,15 @@
 import { ImLinkedin } from 'react-icons/im';
 import { DATA_SPEAKER_ARRAY } from '@/datas';
+import { Link } from 'react-router-dom';
+import { ROUTES } from '@/routes';
 
 export const SpeakerList = () => {
 	return (
 		<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4">
 			{DATA_SPEAKER_ARRAY.map((speaker) => (
-				<div
+				<Link
 					key={speaker.name}
+					to={`${ROUTES.SPEAKER}/${speaker.key}`}
 					className="group bg-white shadow-md rounded-md overflow-hidden hover:shadow-lg transition-all flex flex-col"
 				>
 					<div className="relative aspect-1 border-b">
@@ -46,7 +49,7 @@ export const SpeakerList = () => {
 							))}
 						</div>
 					</div>
-				</div>
+				</Link>
 			))}
 		</div>
 	);

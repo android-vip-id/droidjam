@@ -1,6 +1,14 @@
 import { DATA_SCHEDULE } from '@/datas/schedule.data';
+import { ROUTES } from '@/routes';
+import { useNavigate } from 'react-router-dom';
 
 export const ScheduleList = () => {
+	const navigate = useNavigate();
+
+	const handleClick = (speaker) => {
+		if (speaker.data) navigate(`${ROUTES.SPEAKER}/${speaker.data.key}`);
+	};
+
 	return (
 		<div>
 			{DATA_SCHEDULE.map((schedule) => (
@@ -18,7 +26,7 @@ export const ScheduleList = () => {
 						{schedule.speakers && (
 							<div className="flex flex-wrap md:gap-2">
 								{schedule.speakers.map((speaker) => (
-									<div key={speaker.name}>
+									<div onClick={() => handleClick(speaker)} key={speaker.name}>
 										{!speaker.data && <div className="text-sm">{speaker.name}</div>}
 										{speaker.data && (
 											<div
