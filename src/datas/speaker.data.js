@@ -1,4 +1,4 @@
-export const DATA_SPEAKERS = {
+export const DATA_SPEAKER = {
 	RADITYA_GUMAY: {
 		name: 'Raditya Gumay',
 		designation: ['Senior Principal Engineer at Gojek'],
@@ -145,4 +145,4 @@ export const DATA_SPEAKERS = {
 	},
 };
 
-export const DATA_SPEAKERS_ARRAY = Object.values(DATA_SPEAKERS);
+export const DATA_SPEAKER_ARRAY = Object.values(DATA_SPEAKER);

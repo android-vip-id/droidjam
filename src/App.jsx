@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Home, Schedule, Speakers } from '@/pages';
+import { Home, Schedule, Speaker } from '@/pages';
 import { Header, Footer } from './components/organisms';
 import { ROUTES } from './routes';
 
@@ -10,7 +10,7 @@ function App() {
 
 			<Routes>
 				<Route path={ROUTES.SCHEDULE} element={<Schedule />} />
-				<Route path={ROUTES.SPEAKERS} element={<Speakers />} />
+				<Route path={ROUTES.SPEAKER} element={<Speaker />} />
 				<Route path={ROUTES.HOME} element={<Home />} />
 			</Routes>
 

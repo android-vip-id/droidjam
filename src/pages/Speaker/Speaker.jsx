@@ -1,7 +1,7 @@
 import { BannerPage, SpeakerList } from '@/components/organisms';
 import { Fade } from 'react-reveal';
 
-export const Speakers = () => {
+export const Speaker = () => {
 	return (
 		<main>
 			<BannerPage

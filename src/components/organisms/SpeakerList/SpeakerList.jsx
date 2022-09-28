@@ -1,10 +1,10 @@
 import { ImLinkedin } from 'react-icons/im';
-import { DATA_SPEAKERS_ARRAY } from '@/datas';
+import { DATA_SPEAKER_ARRAY } from '@/datas';
 
 export const SpeakerList = () => {
 	return (
 		<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-			{DATA_SPEAKERS_ARRAY.map((speaker) => (
+			{DATA_SPEAKER_ARRAY.map((speaker) => (
 				<div
 					key={speaker.name}
 					className="group bg-white shadow-md rounded-md overflow-hidden hover:shadow-lg transition-all flex flex-col"

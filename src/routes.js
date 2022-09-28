@@ -1,6 +1,6 @@
 export const ROUTES = {
 	HOME: '/',
-	SPEAKERS: '/speakers',
+	SPEAKER: '/speaker',
 	SCHEDULE: '/schedule',
 };
 
@@ -16,8 +16,8 @@ export const HEADER_ROUTES = [
 		end: false,
 	},
 	{
-		path: ROUTES.SPEAKERS,
-		title: 'Speakers',
+		path: ROUTES.SPEAKER,
+		title: 'Speaker',
 		end: false,
 	},
 ];

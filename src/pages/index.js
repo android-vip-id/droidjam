@@ -1,3 +1,3 @@
 export * from './Home/Home';
 export * from './Schedule/Schedule';
-export * from './Speakers/Speakers';
+export * from './Speaker/Speaker';
