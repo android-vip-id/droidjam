@@ -1,7 +1,7 @@
 import { Fade } from 'react-reveal';
 import { FiCalendar, FiExternalLink, FiMapPin } from 'react-icons/fi';
 import { ImTicket } from 'react-icons/im';
-import { Button, SectionBorder } from '@/components/atoms';
+import { Button } from '@/components/atoms';
 import { DATA_EVENT } from '@/datas';
 import { Container } from '@/components/atoms';
 
