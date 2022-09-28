@@ -5,7 +5,7 @@ module.exports = {
 		extend: {
 			container: {
 				center: true,
-				padding: '1rem',
+				padding: '1.2rem',
 			},
 			fontFamily: {
 				primary: ['"Inter"', 'sans-serif'],
