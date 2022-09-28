@@ -25,16 +25,17 @@ export const SpeakerList = () => {
 						<div className="p-4 pb-2 space-y-4 flex-1">
 							<div className="space-y-1">
 								<h1 className="text-sm sm:text-base font-semibold">{speaker.name}</h1>
-								<p className="text-xs sm:text-sm">
+								<div className="text-xs sm:text-sm">
 									{speaker.designation.map((designation) => (
-										<div>{designation}</div>
+										<div key={designation}>{designation}</div>
 									))}
-								</p>
+								</div>
 							</div>
 						</div>
 						<div className="p-4 py-3 border-t flex justify-center">
 							{speaker.socials.map((social) => (
 								<a
+									key={social.url}
 									className="inline-block hover:text-blue-500 transition-all text-base md:text-xl"
 									target="_blank"
 									rel="noreferrer"

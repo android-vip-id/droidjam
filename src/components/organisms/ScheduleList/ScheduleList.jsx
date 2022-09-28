@@ -4,7 +4,7 @@ export const ScheduleList = () => {
 	return (
 		<div>
 			{DATA_SCHEDULE.map((schedule) => (
-				<div className="grid grid-cols-12 border-b last:border-none">
+				<div key={schedule.uuid} className="grid grid-cols-12 border-b last:border-none">
 					<div className="col-span-5 sm:col-span-3 md:col-span-2 p-4 border-r text-right">
 						<div className="font-semibold text-sm lg:text-lg">{schedule.time}</div>
 						<div className="text-xs">{schedule.duration} min(s)</div>
