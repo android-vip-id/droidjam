@@ -14,6 +14,18 @@ export const DATA_PARTNERSHIP = {
 				url: 'https://ioh.co.id/portal/id/iohindex',
 			},
 		},
+		PLATINUM: {
+			GOJEK: {
+				name: 'Gojek',
+				image: require('@/images/sponsors/gojek.png'),
+				url: 'https://www.gojek.com/',
+			},
+			GRAB: {
+				name: 'Grab',
+				image: require('@/images/sponsors/grab.png'),
+				url: 'https://www.grab.com/id/',
+			},
+		},
 	},
 	COLLABORATORS: {
 		GDG_JAKARTA: {
@@ -46,6 +58,7 @@ export const DATA_PARTNERSHIP = {
 	},
 };
 
-export const DIAMOND_SPONSORS = [DATA_PARTNERSHIP.SPONSORS.DIAMOND.GOOGLE, DATA_PARTNERSHIP.SPONSORS.DIAMOND.INDOSAT];
+export const DIAMOND_SPONSORS = Object.values(DATA_PARTNERSHIP.SPONSORS.DIAMOND);
+export const PLATINUM_SPONSORS = Object.values(DATA_PARTNERSHIP.SPONSORS.PLATINUM);
 export const COLLABORATORS = Object.values(DATA_PARTNERSHIP.COLLABORATORS);
 export const COMMUNITY_PARTNERS = Object.values(DATA_PARTNERSHIP.COMMUNITY_PARTNERS);

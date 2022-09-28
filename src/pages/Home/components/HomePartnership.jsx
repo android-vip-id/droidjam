@@ -1,4 +1,4 @@
-import { COLLABORATORS, COMMUNITY_PARTNERS, DIAMOND_SPONSORS } from '@/datas/partnership.data';
+import { COLLABORATORS, COMMUNITY_PARTNERS, DIAMOND_SPONSORS, PLATINUM_SPONSORS } from '@/datas/partnership.data';
 import React from 'react';
 
 export const HomePartnership = () => {
@@ -11,12 +11,19 @@ export const HomePartnership = () => {
 			<div className="container max-w-screen-2xl relative space-y-16">
 				<div className="space-y-8 bg-white">
 					<div className="flex flex-col items-center text-center">
-						<h1 className="md:text-xl">Diamond Sponsor</h1>
+						<h1 className="md:text-xl">Sponsors</h1>
 					</div>
 					<div className="flex flex-wrap gap-4 md:gap-12 items-center justify-center">
 						{DIAMOND_SPONSORS.map((sponsor) => (
 							<div onClick={() => handleClick(sponsor)} className={`${sponsor.url ? 'cursor-pointer' : ''}`}>
 								<img className="w-48 md:w-60" src={sponsor.image} alt={sponsor.name} />
+							</div>
+						))}
+					</div>
+					<div className="flex flex-wrap gap-4 md:gap-12 items-center justify-center">
+						{PLATINUM_SPONSORS.map((sponsor) => (
+							<div onClick={() => handleClick(sponsor)} className={`${sponsor.url ? 'cursor-pointer' : ''}`}>
+								<img className="w-32 md:w-32" src={sponsor.image} alt={sponsor.name} />
 							</div>
 						))}
 					</div>
