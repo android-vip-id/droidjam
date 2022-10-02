@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd9f68c4.css",
-    "main.js": "/static/js/main.822171f8.js",
+    "main.js": "/static/js/main.2ecb8094.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
     "static/media/grab.png": "/static/media/grab.33ff9440a1947ad5308f.png",
     "static/media/Angga.png": "/static/media/Angga.96ea6e5fb8891b29d1a1.png",
@@ -26,16 +26,17 @@
     "static/media/android-vip.png": "/static/media/android-vip.8dea5fab56cce981f657.png",
     "static/media/gdg-jakarta.png": "/static/media/gdg-jakarta.21a1da822cef29d45f8c.png",
     "static/media/danang-juffry.webp": "/static/media/danang-juffry.8599d6634d782f3d1f19.webp",
+    "static/media/nbs.jpeg": "/static/media/nbs.3b63f397bb099beead55.jpeg",
     "static/media/ghiyats.webp": "/static/media/ghiyats.88bd7ba675bd5c31ae83.webp",
     "index.html": "/index.html",
     "static/media/shape-1-bottom.svg": "/static/media/shape-1-bottom.039e96451841b52376ea.svg",
     "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
     "main.cd9f68c4.css.map": "/static/css/main.cd9f68c4.css.map",
-    "main.822171f8.js.map": "/static/js/main.822171f8.js.map",
+    "main.2ecb8094.js.map": "/static/js/main.2ecb8094.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd9f68c4.css",
-    "static/js/main.822171f8.js"
+    "static/js/main.2ecb8094.js"
   ]
 }
