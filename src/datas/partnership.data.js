@@ -25,6 +25,11 @@ export const DATA_PARTNERSHIP = {
 				image: require('@/images/sponsors/grab.png'),
 				url: 'https://www.grab.com/id/',
 			},
+			NBS: {
+				name: 'NBS',
+				image: require('@/images/sponsors/nbs.jpeg'),
+				url: 'https://nbs.co.id/',
+			},
 		},
 	},
 	COLLABORATORS: {
