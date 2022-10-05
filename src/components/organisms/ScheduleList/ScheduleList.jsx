@@ -19,7 +19,11 @@ export const ScheduleList = () => {
 					</div>
 					<div className="col-span-7 sm:col-span-9 md:col-span-10 p-4 space-y-3">
 						<div>
-							{schedule.title && <div className="font-semibold text-xs md:text-sm">{schedule.agenda}</div>}
+							{schedule.title && (
+								<div className="font-semibold text-xs md:text-sm">
+									{schedule.agenda} {schedule.topics && ` - ${schedule.topics}`}
+								</div>
+							)}
 							<div className="font-semibold text-base md:text-lg">{schedule.title || schedule.agenda}</div>
 						</div>
 
