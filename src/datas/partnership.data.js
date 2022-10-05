@@ -7,27 +7,34 @@ export const DATA_PARTNERSHIP = {
 					'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png',
 				url: null,
 			},
+			GOJEK: {
+				name: 'Gojek',
+				image: require('@/images/sponsors/gojek.png'),
+				url: 'https://www.gojek.com/',
+			},
 			INDOSAT: {
 				name: 'Indosat Ooredoo Hutchison',
 				image:
 					'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Indosat_Ooredoo_Hutchison.svg/1200px-Indosat_Ooredoo_Hutchison.svg.png',
 				url: 'https://ioh.co.id/portal/id/iohindex',
 			},
-		},
-		PLATINUM: {
-			GOJEK: {
-				name: 'Gojek',
-				image: require('@/images/sponsors/gojek.png'),
-				url: 'https://www.gojek.com/',
-			},
 			GRAB: {
 				name: 'Grab',
 				image: require('@/images/sponsors/grab.png'),
 				url: 'https://www.grab.com/id/',
 			},
+		},
+		PLATINUM: {
+			NBS: {
+				name: 'Dicoding',
+				image: require('@/images/sponsors/dicoding.png'),
+				url: 'https://www.dicoding.com/',
+			},
+		},
+		GOLD: {
 			NBS: {
 				name: 'NBS',
-				image: require('@/images/sponsors/nbs.jpeg'),
+				image: require('@/images/sponsors/nbs.png'),
 				url: 'https://nbs.co.id/',
 			},
 		},
@@ -41,7 +48,7 @@ export const DATA_PARTNERSHIP = {
 		JAGOAN_HOSTING: {
 			name: 'Jagoan Hosting',
 			image: require('@/images/sponsors/jagoan-hosting.png'),
-			url: null,
+			url: 'https://www.jagoanhosting.com/',
 		},
 	},
 	COMMUNITY_PARTNERS: {
@@ -65,5 +72,6 @@ export const DATA_PARTNERSHIP = {
 
 export const DIAMOND_SPONSORS = Object.values(DATA_PARTNERSHIP.SPONSORS.DIAMOND);
 export const PLATINUM_SPONSORS = Object.values(DATA_PARTNERSHIP.SPONSORS.PLATINUM);
+export const GOLD_SPONSORS = Object.values(DATA_PARTNERSHIP.SPONSORS.GOLD);
 export const COLLABORATORS = Object.values(DATA_PARTNERSHIP.COLLABORATORS);
 export const COMMUNITY_PARTNERS = Object.values(DATA_PARTNERSHIP.COMMUNITY_PARTNERS);

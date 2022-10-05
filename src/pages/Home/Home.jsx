@@ -5,6 +5,7 @@ import { HomeSchedule } from './components/HomeSchedule';
 import { HomeBanner } from './components/HomeBanner';
 import { HomeLocation } from './components/HomeLocation';
 import { HomeSpeakers } from './components/HomeSpeakers';
+import { HomeSponsors } from './components/HomeSponsors';
 import { HomePartnership } from './components/HomePartnership';
 import { DATA_EVENT } from '@/datas';
 
@@ -21,7 +22,7 @@ export const Home = () => {
 			</Fade>
 
 			<Fade>
-				<HomePartnership />
+				<HomeSponsors />
 			</Fade>
 
 			<Fade>
@@ -30,6 +31,10 @@ export const Home = () => {
 
 			<Fade>
 				<HomeSchedule />
+			</Fade>
+
+			<Fade>
+				<HomePartnership />
 			</Fade>
 
 			<Fade>
