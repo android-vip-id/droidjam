@@ -23,7 +23,7 @@ export const BannerCountdown = () => {
 						<div className="space-y-6 mb-12">
 							<div className="space-y-6">
 								<div className="text-2xl md:text-4xl lg:text-[2.5rem] font-semibold text-center text-white ">
-									Droidjam{' '}
+									DroidJam{' '}
 									<span
 										className="bg-gradient-to-br from-green-500 to-yellow-500 bg-clip-text"
 										style={{ WebkitTextFillColor: 'transparent' }}
@@ -34,7 +34,7 @@ export const BannerCountdown = () => {
 								</div>
 
 								<div className="text-sm md:text-lg lg:text-[1.6rem] text-center text-white">
-									Droidjam brings together thousands of Android developers globally for the largest virtual weekend of
+									DroidJam brings together thousands of Android developers globally for the largest virtual weekend of
 									community-led technical learning and a shared passion for Android technologies.
 								</div>
 							</div>

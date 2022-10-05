@@ -9,7 +9,7 @@ export const HomeSpeakers = () => {
 					<div className="text-center space-y-5">
 						<h1 className="font-bold space-y-2">
 							<div className="text-4xl md:text-5xl text-green-500">Speakers</div>
-							<div className="text-2xl md:text-3xl">@Droidjam Indonesia 2022</div>
+							<div className="text-2xl md:text-3xl">@DroidJam Indonesia 2022</div>
 						</h1>
 						<p className="opacity-70">
 							Our speakers are influential folks & allies who have been associated with communities within their

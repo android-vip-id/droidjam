@@ -15,7 +15,7 @@ export const HeaderMobile = () => {
 			<div className="px-8 sm:px-10">
 				<div className="flex items-center justify-between space-x-6">
 					<Link to={ROUTES.HOME} onClick={handleClose}>
-						<img className="w-20" src={require('@/images/logo/droid-jam-logo-square.png')} alt="Droidjam Logo" />
+						<img className="w-20" src={require('@/images/logo/droid-jam-logo-square.png')} alt="DroidJam Logo" />
 					</Link>
 
 					<button

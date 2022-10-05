@@ -38,7 +38,7 @@ export const HomeBanner = () => {
 									</div>
 
 									<div className="lg:text-lg xl:text-[1.6rem] text-center text-white lg:leading-tight">
-										Droidjam brings together thousands of Android developers globally for the largest virtual weekend of
+										DroidJam brings together thousands of Android developers globally for the largest virtual weekend of
 										community-led technical learning and a shared passion for Android technologies.
 									</div>
 								</div>

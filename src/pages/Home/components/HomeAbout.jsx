@@ -12,7 +12,7 @@ export const HomeAbout = () => {
 							DroidJam Conference brings together thousands of Android developers globally for the largest event
 							community-led technical learning and a shared passion for Android technologies. We Invite{' '}
 							<strong>350+</strong> Professional Android developers, Google Developer Experts, Technical leaders,
-							Freelancers, Students, and Android enthusiasts to join Droidjam Conference Jakarta 2022
+							Freelancers, Students, and Android enthusiasts to join DroidJam Conference Jakarta 2022
 						</div>
 
 						<div className="space-y-4">

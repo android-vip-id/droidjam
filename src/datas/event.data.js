@@ -1,7 +1,7 @@
 export const TITLE = 'DroidJam Indonesia 2022';
 
 export const DESCRIPTION =
-	'Droidjam brings together thousands of Android developers globally for the largest virtual weekend of community-led technical learning and a shared passion for Android technologies.';
+	'DroidJam brings together thousands of Android developers globally for the largest virtual weekend of community-led technical learning and a shared passion for Android technologies.';
 
 export const CALENDAR = {
 	DATE: {
