@@ -20,7 +20,7 @@ export const HomeSponsors = (type) => {
 						<div className="flex flex-col items-center text-center">
 							<h1 className="font-semibold md:text-xl">Diamond Sponsors</h1>
 						</div>
-						<div className="flex flex-wrap gap-4 md:gap-12 items-center justify-center">
+						<div className="flex flex-wrap gap-8 md:gap-12 items-center justify-center">
 							{DIAMOND_SPONSORS.map((sponsor) => (
 								<div onClick={() => handleClick(sponsor)} className={`${sponsor.url ? 'cursor-pointer' : ''}`}>
 									<img className="w-72 lg:w-80" src={sponsor.image} alt={sponsor.name} />
