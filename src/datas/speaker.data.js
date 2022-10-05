@@ -120,7 +120,7 @@ export const DATA_SPEAKER = {
 		name: 'Danang Juffry',
 		designation: ['Community Manager and Developer Relation at Google'],
 		talk_title: '#JuaraAndroid - Info Session',
-		bio: null,
+		bio: 'Experienced Consultant with a demonstrated history of working in the information technology and services industry. Skilled in Negotiation, Investor Relations, Business Planning, Operations Management, and Event Management. Strong consulting professional with a Bachelor’s Degree focused in Industrial Engineering.',
 		avatar: require('@/images/speakers/danang-juffry.webp'),
 		socials: [],
 	},
@@ -178,7 +178,7 @@ export const DATA_SPEAKER = {
 	'djaka-pradana-jaya-priambudi': {
 		key: 'djaka-pradana-jaya-priambudi',
 		name: 'Djaka Pradana Jaya Priambudi',
-		designation: ['Software Engineer'],
+		designation: ['Software Engineer at Traveloka'],
 		talk_title: 'Compose (not a compose UI) for Business Logic',
 		bio: 'A software engineer that focuses on Android Development. Loves solving problem, started to programming since early 2016 and started freelancing since late 2017',
 		avatar: require('@/images/speakers/djaka-tvlk.jpeg'),

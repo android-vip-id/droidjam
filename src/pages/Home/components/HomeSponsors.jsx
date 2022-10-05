@@ -29,7 +29,7 @@ export const HomeSponsors = (type) => {
 						<div className="flex flex-wrap gap-4 md:gap-12 items-center justify-center">
 							{PLATINUM_SPONSORS.map((sponsor) => (
 								<div onClick={() => handleClick(sponsor)} className={`${sponsor.url ? 'cursor-pointer' : ''}`}>
-									<img className="w-48" src={sponsor.image} alt={sponsor.name} />
+									<img className="w-56" src={sponsor.image} alt={sponsor.name} />
 								</div>
 							))}
 						</div>
@@ -41,7 +41,7 @@ export const HomeSponsors = (type) => {
 						<div className="flex flex-wrap gap-4 md:gap-12 items-center justify-center">
 							{GOLD_SPONSORS.map((sponsor) => (
 								<div onClick={() => handleClick(sponsor)} className={`${sponsor.url ? 'cursor-pointer' : ''}`}>
-									<img className="w-36" src={sponsor.image} alt={sponsor.name} />
+									<img className="w-40" src={sponsor.image} alt={sponsor.name} />
 								</div>
 							))}
 						</div>
