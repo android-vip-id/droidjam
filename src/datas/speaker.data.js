@@ -56,7 +56,7 @@ export const DATA_SPEAKER = {
 		designation: ['Engineering Manager at NBS'],
 		talk_title: 'Key lessons learned in adopting KMM in Android & iOS projects',
 		bio: 'Now i am in NBS as Engineering Manager, Before it, most of my time code for Mobile Platform and begin from Android.',
-		avatar: require('@/images/speakers/Kelvin.png'),
+		avatar: require('@/images/speakers/Kelvin-upd.png'),
 		socials: [
 			{
 				type: 'linkedin',
