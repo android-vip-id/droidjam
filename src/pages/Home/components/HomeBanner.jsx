@@ -29,7 +29,7 @@ export const HomeBanner = () => {
 									/>
 									<div className="space-y-6">
 										<div className="text-2xl lg:text-4xl xl:text-[2.5rem] font-semibold text-center text-white">
-											Droidjam{' '}
+											DroidJam{' '}
 											<span className="bg-gradient-primary bg-clip-text" style={{ WebkitTextFillColor: 'transparent' }}>
 												Indonesia
 											</span>{' '}
@@ -48,11 +48,11 @@ export const HomeBanner = () => {
 										<FiCalendar className="w-5 mt-[6px] hidden md:block" size={20} />
 										<span className="flex md:items-start flex-col md:flex-col space-y-1">
 											<span className="text-sm font-bold md:hidden">WHEN</span>
-											<span>
+											<span className="lg:text-lg">
 												{DATA_EVENT.CALENDAR.DATE.LABEL}, {DATA_EVENT.CALENDAR.TIME.LABEL}
 											</span>
 											<a
-												className="flex items-center justify-center space-x-1 text-blue-400 hover:text-blue-500 text-sm"
+												className="flex items-center justify-center space-x-1 text-blue-400 hover:text-blue-500 text-sm lg:text-base"
 												href={DATA_EVENT.CALENDAR.REMINDER_URL}
 												target="_blank"
 												rel="noreferrer"
@@ -66,9 +66,9 @@ export const HomeBanner = () => {
 										<FiMapPin className="w-5 mt-[6px] hidden md:block" size={20} />
 										<span className="flex md:items-start flex-col md:flex-col space-y-1">
 											<span className="text-sm font-bold md:hidden">WHERE</span>
-											<span>{DATA_EVENT.LOCATION.LABEL}</span>
+											<span className="lg:text-lg">{DATA_EVENT.LOCATION.LABEL}</span>
 											<a
-												className="flex items-center justify-center space-x-1 text-blue-400 hover:text-blue-500 text-sm"
+												className="flex items-center justify-center space-x-1 text-blue-400 hover:text-blue-500 text-sm lg:text-base"
 												href={DATA_EVENT.LOCATION.URL}
 												target="_blank"
 												rel="noreferrer"
@@ -82,7 +82,7 @@ export const HomeBanner = () => {
 
 								<div className="flex justify-center">
 									<Button
-										className="px-6 py-3 space-x-3 text-base"
+										className="px-6 py-3 space-x-3 text-base xl:px-8 xl:py-4 xl:text-lg"
 										variant="primary"
 										text="Get Tickets"
 										href={DATA_EVENT.REGISTRATION_LINK}

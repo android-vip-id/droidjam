@@ -22,8 +22,8 @@ export const HeaderDesktop = () => {
 								key={route.path}
 								className={({ isActive }) =>
 									isActive
-										? 'px-6 py-6 text-sm text-white font-semibold'
-										: 'px-6 py-6 text-sm text-gray-300 hover:text-white'
+										? 'px-6 py-6 text-sm lg:text-base text-white font-semibold'
+										: 'px-6 py-6 text-sm lg:text-base text-gray-300 hover:text-white'
 								}
 								to={route.path}
 							>
@@ -34,7 +34,7 @@ export const HeaderDesktop = () => {
 
 					<div className="absolute right-0 flex items-center space-x-3">
 						<Button
-							className="px-5 py-3 space-x-3"
+							className="px-5 py-3 space-x-3 lg:px-7 lg:py-4 lg:text-base"
 							variant="primary"
 							text="Get Tickets"
 							href={DATA_EVENT.REGISTRATION_LINK}
