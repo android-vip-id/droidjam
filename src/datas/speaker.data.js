@@ -54,7 +54,7 @@ export const DATA_SPEAKER = {
 		key: 'kelvin-wong',
 		name: 'Kelvin Wong',
 		designation: ['Engineering Manager at NBS'],
-		talk_title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
+		talk_title: 'Key lessons learned in adopting KMM in Android & iOS projects',
 		bio: 'Now i am in NBS as Engineering Manager, Before it, most of my time code for Mobile Platform and begin from Android.',
 		avatar: require('@/images/speakers/Kelvin.png'),
 		socials: [
@@ -150,11 +150,16 @@ export const DATA_SPEAKER = {
 	'achmad-ilham': {
 		key: 'achmad-ilham',
 		name: 'Achmad Ilham',
-		designation: ['Senior Android Engineer at Twitter', 'Google Developer Expert in Android'],
-		talk_title: '',
-		bio: null,
-		avatar: null,
-		socials: [],
+		designation: ['Curriculum Developer on Flutter Learning Path at Dicoding'],
+		talk_title: 'Expand your Flutter App on a Foldable Phone',
+		bio: 'I work for Dicoding Indonesia as Curriculum Developer on Flutter Learning Path. I earned a Bachelor’s degree in Telecommunication Engineering and a Master’s degree in Electrical Engineering from Politeknik Elektronika Negeri Surabaya (PENS). Being Mobile Development, especially Flutter from 2 years ago and always learning something new.',
+		avatar: require('@/images/speakers/achmad-ilham.JPG'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/achmadilham07/',
+			},
+		],
 	},
 	'muh-rahmatullah': {
 		key: 'muh-rahmatullah',
