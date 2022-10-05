@@ -44,8 +44,8 @@ export const DATA_SPEAKER = {
 	'hakim-hauston': {
 		key: 'hakim-hauston',
 		name: 'Hakim Hauston',
-		designation: [],
-		talk_title: '',
+		designation: ['Developer Relation Engineer at Google'],
+		talk_title: 'Develop apps for Large screen and foldables',
 		bio: '',
 		avatar: require('@/images/speakers/Hakim.jpg'),
 		socials: [],
@@ -68,7 +68,7 @@ export const DATA_SPEAKER = {
 		key: 'rama-widragama-putra',
 		name: 'Rama Widragama Putra',
 		designation: ['Software Engineer Android at Tokopedia'],
-		talk_title: '',
+		talk_title: 'Flutter Adoption in Tokopedia',
 		bio: null,
 		avatar: require('@/images/speakers/rama.jpg'),
 		socials: [
@@ -81,7 +81,7 @@ export const DATA_SPEAKER = {
 	'rendra-toro': {
 		key: 'rendra-toro',
 		name: 'Rendra Toro',
-		designation: [],
+		designation: ['Experienced CTO since 2011'],
 		talk_title: '',
 		bio: null,
 		avatar: require('@/images/speakers/rendra.jpg'),
@@ -118,7 +118,7 @@ export const DATA_SPEAKER = {
 	'danang-juffry': {
 		key: 'danang-juffry',
 		name: 'Danang Juffry',
-		designation: [],
+		designation: ['Community Manager and Developer Relation at Google'],
 		talk_title: '#JuaraAndroid - Info Session',
 		bio: null,
 		avatar: require('@/images/speakers/danang-juffry.webp'),
