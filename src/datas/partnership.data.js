@@ -9,7 +9,7 @@ export const DATA_PARTNERSHIP = {
 			},
 			GOJEK: {
 				name: 'Gojek',
-				image: require('@/images/sponsors/gojek.png'),
+				image: require('@/images/sponsors/gojek-compressed.png'),
 				url: 'https://www.gojek.com/',
 			},
 			INDOSAT: {
@@ -20,7 +20,7 @@ export const DATA_PARTNERSHIP = {
 			},
 			GRAB: {
 				name: 'Grab',
-				image: require('@/images/sponsors/grab.png'),
+				image: require('@/images/sponsors/grab-compressed.png'),
 				url: 'https://www.grab.com/id/',
 			},
 		},
