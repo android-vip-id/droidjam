@@ -26,7 +26,7 @@ export const HomeAbout = () => {
 								<span className="text-green-600">
 									<FiCheckCircle size={20} />
 								</span>
-								<span>15+ speakers</span>
+								<span>13 speakers</span>
 							</div>
 							<div className="flex items-start space-x-3">
 								<span className="text-green-600">
@@ -41,7 +41,7 @@ export const HomeAbout = () => {
 								<span className="text-green-600">
 									<FiCheckCircle size={20} />
 								</span>
-								<span>Food & Networking</span>
+								<span>Meals & Networking</span>
 							</div>
 						</div>
 					</div>
