@@ -24,12 +24,11 @@ export const Footer = () => {
 						</div>
 					</div>
 					<div className="flex flex-wrap items-center justify-center gap-6">
-						<form action="mailto:info@droidjam.id" method="GET">
-							<Button type="submit" className="px-8 py-4">
-								Call for Sponsors
-							</Button>
-						</form>
-						<Button className="px-8 py-4" variant="primary" href={DATA_EVENT.REGISTRATION_LINK}>
+						<Button
+							className="px-8 py-4 lg:px-10 lg:py-5 lg:text-lg"
+							variant="primary"
+							href={DATA_EVENT.REGISTRATION_LINK}
+						>
 							Get Tickets
 						</Button>
 					</div>
