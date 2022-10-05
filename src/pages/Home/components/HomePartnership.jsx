@@ -1,4 +1,4 @@
-import { COLLABORATORS, COMMUNITY_PARTNERS, DIAMOND_SPONSORS, PLATINUM_SPONSORS } from '@/datas/partnership.data';
+import { COLLABORATORS, COMMUNITY_PARTNERS } from '@/datas/partnership.data';
 import React from 'react';
 
 export const HomePartnership = (type) => {

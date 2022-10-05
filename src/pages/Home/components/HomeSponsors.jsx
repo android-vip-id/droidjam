@@ -1,10 +1,4 @@
-import {
-	COLLABORATORS,
-	COMMUNITY_PARTNERS,
-	DIAMOND_SPONSORS,
-	GOLD_SPONSORS,
-	PLATINUM_SPONSORS,
-} from '@/datas/partnership.data';
+import { DIAMOND_SPONSORS, GOLD_SPONSORS, PLATINUM_SPONSORS } from '@/datas/partnership.data';
 import React from 'react';
 
 export const HomeSponsors = (type) => {
