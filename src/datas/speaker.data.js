@@ -138,14 +138,19 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	'andrew-kurniadi': {
-		key: 'andrew-kurniadi',
-		name: 'Andrew Kurniadi',
-		designation: ['CEO at Lumio.id', 'Google Developer Expert in Android'],
-		talk_title: 'Challenges in Building Android App for Large Screen',
-		bio: null,
-		avatar: require('@/images/speakers/andrew.webp'),
-		socials: [],
+	'veronica-putri-anggraini': {
+		key: 'veronica-putri-anggraini',
+		name: 'Veronica Putri Anggraini',
+		designation: ['Software Engineer Android at eW+(LINE Bank)'],
+		talk_title: 'Geofencing feature to boost your digital campaign',
+		bio: 'As Software Engineer Android, Vero conducts research on the right technology to realize a new feature based on user requirements documents and implements it so that the live application features are used by the user, ensures the application runs well, and performs repairs and maintenance on features that are currently running.',
+		avatar: require('@/images/speakers/veronica.jpeg'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/veroanggra/',
+			},
+		],
 	},
 	'achmad-ilham': {
 		key: 'achmad-ilham',
