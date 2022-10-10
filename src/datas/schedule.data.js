@@ -76,13 +76,13 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER['andrew-kurniadi'].name,
-				data: DATA_SPEAKER['andrew-kurniadi'],
+				name: DATA_SPEAKER['veronica-putri-anggraini'].name,
+				data: DATA_SPEAKER['veronica-putri-anggraini'],
 			},
 		],
-		topics: 'Large Screen',
-		title: 'Challenges in Building Android App for Large Screen',
-		organization: 'GDE/Lumio',
+		topics: 'Location and Geofence',
+		title: 'Geofencing feature to boost your digital campaign',
+		organization: 'eWide Plus/Line',
 	},
 	{
 		uuid: uuidv4(),
