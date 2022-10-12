@@ -16,7 +16,7 @@ export const DATA_SCHEDULE = [
 		uuid: uuidv4(),
 		time: '09.30 - 09.35',
 		duration: '5',
-		agenda: 'Opening',
+		agenda: 'Opening by MC',
 		pic: 'MC',
 		speakers: [],
 		title: null,
@@ -134,7 +134,7 @@ export const DATA_SCHEDULE = [
 		uuid: uuidv4(),
 		time: '12.45 - 13.00',
 		duration: '15',
-		agenda: 'ISHOMA',
+		agenda: 'Ishoma',
 		pic: 'Event team',
 		speakers: [],
 		title: null,
@@ -196,22 +196,6 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: 'Angga Dwi Ariffandi',
-				data: DATA_SPEAKER['angga-dwi-arifandi'],
-			},
-		],
-		topics: 'Flutter',
-		title: 'GraphQL in Flutter: Why and How',
-		organization: 'GDE/Rock',
-	},
-	{
-		uuid: uuidv4(),
-		time: '15.00 - 15.30',
-		duration: '30',
-		agenda: 'Talk #9',
-		pic: 'Speakership Team',
-		speakers: [
-			{
 				name: DATA_SPEAKER['kelvin-wong'].name,
 				data: DATA_SPEAKER['kelvin-wong'],
 			},
@@ -223,6 +207,22 @@ export const DATA_SCHEDULE = [
 		topics: 'Multiplatform',
 		title: 'Our key lessons learned in adopting KMM in Android&iOS projects',
 		organization: 'NBS',
+	},
+	{
+		uuid: uuidv4(),
+		time: '15.00 - 15.30',
+		duration: '30',
+		agenda: 'Talk #9',
+		pic: 'Speakership Team',
+		speakers: [
+			{
+				name: 'Angga Dwi Ariffandi',
+				data: DATA_SPEAKER['angga-dwi-arifandi'],
+			},
+		],
+		topics: 'Flutter',
+		title: 'GraphQL in Flutter: Why and How',
+		organization: 'GDE/Rock',
 	},
 	{
 		uuid: uuidv4(),
