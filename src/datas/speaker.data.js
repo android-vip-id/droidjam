@@ -81,7 +81,7 @@ export const DATA_SPEAKER = {
 	'rendra-toro': {
 		key: 'rendra-toro',
 		name: 'Rendra Toro',
-		designation: ['Experienced CTO since 2011'],
+		designation: ['Technology Consultant at Indosat Ooredoo Hutchinson', 'Co-Founder Droidjam Indonesia'],
 		talk_title: '',
 		bio: null,
 		avatar: require('@/images/speakers/rendra.jpg'),

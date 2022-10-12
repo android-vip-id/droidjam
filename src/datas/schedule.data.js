@@ -35,7 +35,7 @@ export const DATA_SCHEDULE = [
 			},
 		],
 		title: null,
-		organization: 'Android VIP',
+		organization: 'Indosat',
 	},
 	{
 		uuid: uuidv4(),
@@ -76,13 +76,13 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER['veronica-putri-anggraini'].name,
-				data: DATA_SPEAKER['veronica-putri-anggraini'],
+				name: DATA_SPEAKER['budi-oktaviyan'].name,
+				data: DATA_SPEAKER['budi-oktaviyan'],
 			},
 		],
-		topics: 'Location and Geofence',
-		title: 'Geofencing feature to boost your digital campaign',
-		organization: 'eWide Plus/Line',
+		topics: 'DevOps Infra',
+		title: 'The Bazel Build System - A Grab Migration Experience',
+		organization: 'Technical Lead @Grab/GDE Android',
 	},
 	{
 		uuid: uuidv4(),
@@ -134,16 +134,11 @@ export const DATA_SCHEDULE = [
 		uuid: uuidv4(),
 		time: '12.45 - 13.00',
 		duration: '15',
-		agenda: 'Ice Breaking',
+		agenda: 'ISHOMA',
 		pic: 'Event team',
-		speakers: [
-			{
-				name: 'MC',
-				data: null,
-			},
-		],
+		speakers: [],
 		title: null,
-		organization: '',
+		organization: null,
 	},
 	{
 		uuid: uuidv4(),
@@ -153,13 +148,13 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: DATA_SPEAKER['budi-oktaviyan'].name,
-				data: DATA_SPEAKER['budi-oktaviyan'],
+				name: 'Hakim Hauston',
+				data: DATA_SPEAKER['hakim-hauston'],
 			},
 		],
-		topics: 'DevOps Infra',
-		title: 'The Bazel Build System - A Grab Migration Experience',
-		organization: 'GDE/Grab',
+		topics: 'Large Screen',
+		title: 'Develop apps for Large screen and foldables',
+		organization: 'Google',
 	},
 	{
 		uuid: uuidv4(),
@@ -185,13 +180,13 @@ export const DATA_SCHEDULE = [
 		pic: 'Speakership Team',
 		speakers: [
 			{
-				name: 'Hakim Hauston',
-				data: DATA_SPEAKER['hakim-hauston'],
+				name: DATA_SPEAKER['veronica-putri-anggraini'].name,
+				data: DATA_SPEAKER['veronica-putri-anggraini'],
 			},
 		],
-		topics: 'Large Screen',
-		title: 'Develop apps for Large screen and foldables',
-		organization: 'Google',
+		topics: 'Location and Geofence',
+		title: 'Geofencing feature to boost your digital campaign',
+		organization: 'eWide Plus/Line',
 	},
 	{
 		uuid: uuidv4(),
