@@ -35,7 +35,7 @@ export const DATA_SCHEDULE = [
 			},
 		],
 		title: null,
-		organization: 'Indosat',
+		organization: 'Indosat Ooredoo Hutchison',
 	},
 	{
 		uuid: uuidv4(),
@@ -50,7 +50,7 @@ export const DATA_SCHEDULE = [
 			},
 		],
 		title: null,
-		organization: 'Indosat',
+		organization: 'Indosat Ooredoo Hutchison',
 	},
 	{
 		uuid: uuidv4(),
@@ -81,8 +81,8 @@ export const DATA_SCHEDULE = [
 			},
 		],
 		topics: 'DevOps Infra',
-		title: 'The Bazel Build System - A Grab Migration Experience',
-		organization: 'Technical Lead @Grab/GDE Android',
+		title: 'Bazel Build System - The Grab Migration Experience',
+		organization: 'GDE/Grab',
 	},
 	{
 		uuid: uuidv4(),

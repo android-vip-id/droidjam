@@ -81,7 +81,7 @@ export const DATA_SPEAKER = {
 	'rendra-toro': {
 		key: 'rendra-toro',
 		name: 'Rendra Toro',
-		designation: ['Technology Consultant at Indosat Ooredoo Hutchinson', 'Co-Founder Droidjam Indonesia'],
+		designation: ['Technology Consultant at Indosat Ooredoo Hutchison', 'Co-Founder DroidJam Indonesia'],
 		talk_title: '',
 		bio: null,
 		avatar: require('@/images/speakers/rendra.jpg'),
@@ -91,8 +91,8 @@ export const DATA_SPEAKER = {
 		key: 'budi-oktaviyan',
 		name: 'Budi Oktaviyan',
 		designation: ['Technical Lead at Grab', 'Google Developer Expert in Android'],
-		talk_title: 'The Bazel Build System - A Grab Migration Experience',
-		bio: 'Mobile Tech Industry Expertise with an Agility Mindset and 10+ years experience from various technology platforms. Tech Savvy, at the Leading of Everyday Everything Super Apps in Southeast Asia',
+		talk_title: 'Bazel Build System - The Grab Migration Experience',
+		bio: 'Mobile Tech Industry Expertise with an Agility Mindset and 12+ years experience from various technology platforms. Tech Savvy, at the Leading of Everyday Everything Super Apps in Southeast Asia',
 		avatar: require('@/images/speakers/budioktaviyans.jpg'),
 		socials: [
 			{
