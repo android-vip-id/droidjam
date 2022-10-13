@@ -183,7 +183,7 @@ export const DATA_SPEAKER = {
 	'djaka-pradana-jaya-priambudi': {
 		key: 'djaka-pradana-jaya-priambudi',
 		name: 'Djaka Pradana Jaya Priambudi',
-		designation: ['Software Engineer at Traveloka'],
+		designation: ['Software Engineer at Travel Platform'],
 		talk_title: 'Compose (not a compose UI) for Business Logic',
 		bio: 'A software engineer that focuses on Android Development. Loves solving problem, started to programming since early 2016 and started freelancing since late 2017',
 		avatar: require('@/images/speakers/djaka-tvlk.jpeg'),
