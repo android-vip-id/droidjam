@@ -45,7 +45,8 @@ export const DATA_SPEAKER = {
 		key: 'hakim-hauston',
 		name: 'Hakim Hauston',
 		designation: ['Developer Relation Engineer at Google'],
-		talk_title: 'Develop apps for Large screen and foldables',
+		talk_title:
+			'Expand Your Reach, Engagement and ROI with Google Play Games for PC + Support for Large Screens and Foldables',
 		bio: '',
 		avatar: require('@/images/speakers/Hakim.jpg'),
 		socials: [],

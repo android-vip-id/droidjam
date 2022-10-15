@@ -153,7 +153,8 @@ export const DATA_SCHEDULE = [
 			},
 		],
 		topics: 'Large Screen',
-		title: 'Develop apps for Large screen and foldables',
+		title:
+			'Expand Your Reach, Engagement and ROI with Google Play Games for PC + Support for Large Screens and Foldables',
 		organization: 'Google',
 	},
 	{
