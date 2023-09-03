@@ -18,10 +18,9 @@ export const CALENDAR = {
 export const REGISTRATION_LINK = 'https://www.loket.com/event/droidjam-android-conference-jakarta-2022_DgT1';
 
 export const LOCATION = {
-	LABEL: 'Indosat Auditorium',
-	ADDRESS:
-		'Jl. Medan Merdeka Barat No.21, RT.2/RW.3, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110',
-	URL: 'https://www.google.com/maps/place/Indosat+Ooredoo/@-6.1801157,106.8214289,17z/data=!4m12!1m6!3m5!1s0x2e69f42bb972a2c3:0x274be05db2df2116!2sIndosat+Ooredoo!8m2!3d-6.1801157!4d106.8214289!3m4!1s0x2e69f42bb972a2c3:0x274be05db2df2116!8m2!3d-6.1801157!4d106.8214289',
+	LABEL: 'QBIG Convention Center BSD',
+	ADDRESS: 'Jl. BSD Raya Utama, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331',
+	URL: 'https://www.google.com/maps/dir//Jl.+BSD+Raya+Utama,+Lengkong+Kulon,+Kec.+Pagedangan,+Kabupaten+Tangerang,+Banten+15331/@-6.2845561,106.5556538,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e69fb4030859dfb:0xbc8402640a0b831d!2m2!1d106.6380557!2d-6.2845625?entry=ttu',
 };
 
 export const MAIN_TOPICS = [
