@@ -18,7 +18,7 @@ export const HomeSpeakers = () => {
 					</div>
 				</Container>
 
-				<div className="container max-w-screen-2xl">
+				<div className="container max-w-screen-xl">
 					<SpeakerList />
 				</div>
 			</div>

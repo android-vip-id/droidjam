@@ -5,29 +5,29 @@ import { ROUTES } from '@/routes';
 
 export const SpeakerList = () => {
 	return (
-		<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+		<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
 			{DATA_SPEAKER_ARRAY.map((speaker) => (
 				<Link
 					key={speaker.name}
 					to={`${ROUTES.SPEAKER}/${speaker.key}`}
-					className="group bg-white shadow-md rounded-md overflow-hidden hover:shadow-lg transition-all flex flex-col"
+					className="flex flex-col overflow-hidden transition-all bg-white rounded-md shadow-md group hover:shadow-lg"
 				>
-					<div className="relative aspect-1 border-b">
+					<div className="relative border-b aspect-1">
 						<img
-							className="aspect-1 w-full h-full object-cover"
+							className="object-cover w-full h-full aspect-1"
 							src={speaker.avatar || 'https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar-300x300.jpg'}
 							alt={speaker.name}
 						/>
 						{speaker.bio && (
-							<div className="absolute left-0 top-0 w-full h-full bg-black bg-opacity-70 text-white p-5 opacity-0 group-hover:opacity-100 transition-all overflow-y-scroll text-sm">
+							<div className="absolute top-0 left-0 w-full h-full p-5 overflow-y-scroll text-sm text-white transition-all bg-black opacity-0 bg-opacity-70 group-hover:opacity-100">
 								{speaker.bio}
 							</div>
 						)}
 					</div>
-					<div className="flex-1 flex flex-col justify-between">
-						<div className="p-4 pb-2 space-y-4 flex-1">
+					<div className="flex flex-col justify-between flex-1">
+						<div className="flex-1 p-4 pb-2 space-y-4">
 							<div className="space-y-1">
-								<h1 className="text-sm sm:text-base font-semibold">{speaker.name}</h1>
+								<h1 className="text-sm font-semibold sm:text-base">{speaker.name}</h1>
 								<div className="text-xs sm:text-sm">
 									{speaker.designation.map((designation) => (
 										<div key={designation}>{designation}</div>
@@ -35,11 +35,11 @@ export const SpeakerList = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-4 py-3 border-t flex justify-center">
+						<div className="flex justify-center p-4 py-3 border-t">
 							{speaker.socials.map((social) => (
 								<a
 									key={social.url}
-									className="inline-block hover:text-blue-500 transition-all text-base md:text-xl"
+									className="inline-block text-base transition-all hover:text-blue-500 md:text-xl"
 									target="_blank"
 									rel="noreferrer"
 									href={social.url}
