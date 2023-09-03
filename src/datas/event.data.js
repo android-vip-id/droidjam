@@ -25,10 +25,10 @@ export const LOCATION = {
 
 export const MAIN_TOPICS = [
 	{
-		title: 'Jetpack Compose',
-		icon: 'https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png',
+		title: 'MAD',
+		icon: 'https://developer.android.com/images/brand/Android_Robot.png',
 		description:
-			'From guidance on architecture and testing, to deep dives into animation, lists or thinking in Compose, we have guides to help you get up to speed.',
+			'Modern Android Development track to teach of how to use the latest technologies to build better apps, more quickly and easily.',
 	},
 	{
 		title: 'Kotlin',

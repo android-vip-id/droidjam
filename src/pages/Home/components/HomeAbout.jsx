@@ -27,15 +27,15 @@ export const HomeAbout = () => {
 								<span className="text-green-600">
 									<FiCheckCircle size={20} />
 								</span>
-								<span>13 speakers</span>
+								<span>11 speakers</span>
 							</div>
 							<div className="flex items-start space-x-3">
 								<span className="text-green-600">
 									<FiCheckCircle size={20} />
 								</span>
 								<span>
-									Technical Talks Workshops, Panel discussions with top tech individuals Best-in-class speakers from
-									around the world Company Exhibits
+									Technical Talks, Panel discussions with top tech individuals Best-in-class speakers from around the
+									world Company Exhibits
 								</span>
 							</div>
 							<div className="flex items-start space-x-3">
@@ -50,7 +50,7 @@ export const HomeAbout = () => {
 					<div className="flex flex-col space-y-3 ">
 						{DATA_EVENT.MAIN_TOPICS.map((topic) => (
 							<div key={topic.title} className="flex items-start p-4 space-x-3 bg-white border rounded-md">
-								<img className="w-8" src={topic.icon} alt={topic.title} />
+								<img className="object-contain w-8 h-8" src={topic.icon} alt={topic.title} />
 								<div>
 									<div className="py-1 text-lg font-semibold">{topic.title}</div>
 									<div>{topic.description}</div>
