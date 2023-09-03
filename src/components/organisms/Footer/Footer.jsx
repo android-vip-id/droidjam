@@ -15,11 +15,15 @@ export const Footer = () => {
 			<div className="relative bg-black bg-opacity-70">
 				<Container className="py-20 space-y-8 text-center text-white">
 					<div className="space-y-4">
-						<h1 className="text-3xl font-bold leading-tight lg:text-4xl">DroidJam Indonesia 15th October 2023</h1>
+						<h1 className="text-3xl font-bold leading-tight lg:text-4xl">DroidJam Indonesia 7th October 2023</h1>
 						<div>
 							Call for sponsorship opportunities, contact{' '}
-							<a className="text-blue-400 hover:text-blue-500" href="mailto:info@DroidJam.id">
+							<a className="text-blue-400 hover:text-blue-500" href="mailto:info@droidJam.id">
 								info@droidjam.id
+							</a>{' '}
+							and{' '}
+							<a className="text-blue-400 hover:text-blue-500" href="mailto:sponsorship@droidjam.id">
+								sponsorship@droidjam.id
 							</a>
 						</div>
 					</div>
