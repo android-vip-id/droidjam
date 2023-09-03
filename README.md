@@ -1,7 +1,6 @@
 # About
 
-React.js boilerplate create by Ahmed Rayhan Primadedas
-integrated with some features below
+React.js boilerplate integrated with some features below
 
 ## Features & Stacks
 
