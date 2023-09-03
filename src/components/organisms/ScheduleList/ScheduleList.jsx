@@ -13,18 +13,18 @@ export const ScheduleList = () => {
 		<div>
 			{DATA_SCHEDULE.map((schedule) => (
 				<div key={schedule.uuid} className="grid grid-cols-12 border-b last:border-none">
-					<div className="col-span-5 sm:col-span-3 md:col-span-2 p-4 border-r text-right">
-						<div className="font-semibold text-sm lg:text-lg">{schedule.time}</div>
+					<div className="col-span-5 p-4 text-right border-r sm:col-span-3 md:col-span-2">
+						<div className="text-sm font-semibold lg:text-lg">{schedule.time}</div>
 						<div className="text-xs">{schedule.duration} min(s)</div>
 					</div>
-					<div className="col-span-7 sm:col-span-9 md:col-span-10 p-4 space-y-3">
+					<div className="col-span-7 p-4 space-y-3 sm:col-span-9 md:col-span-10">
 						<div>
 							{schedule.title && (
-								<div className="font-semibold text-xs md:text-sm">
+								<div className="text-xs font-semibold md:text-sm">
 									{schedule.agenda} {schedule.topics && ` - ${schedule.topics}`}
 								</div>
 							)}
-							<div className="font-semibold text-base md:text-lg">{schedule.title || schedule.agenda}</div>
+							<div className="text-base font-semibold md:text-lg">{schedule.title || schedule.agenda}</div>
 						</div>
 
 						{schedule.speakers && (
@@ -40,7 +40,7 @@ export const ScheduleList = () => {
 											>
 												{speaker.data?.avatar && (
 													<img
-														className="aspect-1 w-6 object-cover rounded-full"
+														className="object-cover w-6 rounded-full aspect-1"
 														src={speaker.data?.avatar}
 														alt={speaker.name}
 													/>
