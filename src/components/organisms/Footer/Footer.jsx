@@ -5,17 +5,17 @@ import React from 'react';
 export const Footer = () => {
 	return (
 		<footer className="relative overflow-hidden">
-			<div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full">
+			<div className="absolute w-full h-full -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
 				<img
-					className="w-full h-full object-cover"
+					className="object-cover w-full h-full"
 					src={require('@/images/samples/indosat-auditorium.png')}
 					alt="Indosat Ooredoo"
 				/>
 			</div>
 			<div className="relative bg-black bg-opacity-70">
-				<Container className="py-20 text-white text-center space-y-8">
+				<Container className="py-20 space-y-8 text-center text-white">
 					<div className="space-y-4">
-						<h1 className="text-3xl lg:text-4xl font-bold leading-tight">DroidJam Indonesia 15th October 2022</h1>
+						<h1 className="text-3xl font-bold leading-tight lg:text-4xl">DroidJam Indonesia 15th October 2023</h1>
 						<div>
 							Call for sponsorship opportunities, contact{' '}
 							<a className="text-blue-400 hover:text-blue-500" href="mailto:info@DroidJam.id">

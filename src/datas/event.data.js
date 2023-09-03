@@ -1,18 +1,18 @@
-export const TITLE = 'DroidJam Indonesia 2022';
+export const TITLE = 'DroidJam Indonesia 2023';
 
 export const DESCRIPTION =
 	'DroidJam brings together thousands of Android developers globally for the largest virtual weekend of community-led technical learning and a shared passion for Android technologies.';
 
 export const CALENDAR = {
 	DATE: {
-		LABEL: '15th October',
-		VALUE: new Date(2022, 9, 15),
+		LABEL: '7th October',
+		VALUE: new Date(2023, 10, 7),
 	},
 	TIME: {
-		LABEL: '10.00 - 16.00',
+		LABEL: '09.00 - 18.00',
 	},
 	REMINDER_URL:
-		'https://www.google.com/calendar/render?action=TEMPLATE&text=Droidcon+Indonesia+2022&details=DroidJam+Conference+brings+together+thousands+of%0AAndroid+developers+globally+for+the+largest+event%0Acommunity-led+technical+learning+and+a+shared%0Apassion+for+Android+technologies.&location=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%2FJl.%2BMedan%2BMerdeka%2BBarat%2BNo.21%2C%2BRT.2%2F3%2C%2BGambir%2C%2BKecamatan%2BGambir%2C%2BKota%2BJakarta%2BPusat%2C%2BDaerah%2BKhusus%2BIbukota%2BJakarta%2F%40-6.1758763%2C106.7514844%2C12z%2Fdata%3D%214m9%214m8%211m0%211m0%211m5%211m1%211s0x2e69f5d4c204dfe9%3A0x65c90d6690f5dedd%212m2%211d106.821525%212d-6.1758809&dates=20221015T030000Z%2F20221015T090000Z',
+		'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231007T020000Z%2F20231007T110000Z&details=&location=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%2FJl.%2BBSD%2BRaya%2BUtama%2C%2BLengkong%2BKulon%2C%2BKec.%2BPagedangan%2C%2BKabupaten%2BTangerang%2C%2BBanten%2B15331%2F%40-6.2845561%2C106.5556538%2C12z%2Fdata%3D%214m8%214m7%211m0%211m5%211m1%211s0x2e69fb4030859dfb%3A0xbc8402640a0b831d%212m2%211d106.6380557%212d-6.2845625%3Fentry%3Dttu&text=DroidJam%20Indonesia%202023',
 };
 
 export const REGISTRATION_LINK = 'https://www.loket.com/event/droidjam-android-conference-jakarta-2022_DgT1';

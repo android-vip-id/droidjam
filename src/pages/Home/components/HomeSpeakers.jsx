@@ -4,12 +4,12 @@ import { SpeakerList } from '@/components/organisms';
 export const HomeSpeakers = () => {
 	return (
 		<section>
-			<div className="bg-gray-100 py-16 md:py-20 space-y-20">
+			<div className="py-16 space-y-20 bg-gray-100 md:py-20">
 				<Container>
-					<div className="text-center space-y-5">
-						<h1 className="font-bold space-y-2">
-							<div className="text-4xl md:text-5xl text-green-500">Speakers</div>
-							<div className="text-2xl md:text-3xl">@DroidJam Indonesia 2022</div>
+					<div className="space-y-5 text-center">
+						<h1 className="space-y-2 font-bold">
+							<div className="text-4xl text-green-500 md:text-5xl">Speakers</div>
+							<div className="text-2xl md:text-3xl">@DroidJam Indonesia 2023</div>
 						</h1>
 						<p className="opacity-70">
 							Our speakers are influential folks & allies who have been associated with communities within their
