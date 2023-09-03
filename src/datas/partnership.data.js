@@ -2,42 +2,13 @@ export const DATA_PARTNERSHIP = {
 	SPONSORS: {
 		DIAMOND: {
 			GOOGLE: {
-				name: 'Google',
-				image:
-					'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png',
-				url: null,
-			},
-			GOJEK: {
-				name: 'Gojek',
-				image: require('@/images/sponsors/gojek-compressed.png'),
-				url: 'https://www.gojek.com/',
-			},
-			INDOSAT: {
-				name: 'Indosat Ooredoo Hutchison',
-				image:
-					'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Indosat_Ooredoo_Hutchison.svg/1200px-Indosat_Ooredoo_Hutchison.svg.png',
-				url: 'https://ioh.co.id/portal/id/iohindex',
-			},
-			GRAB: {
-				name: 'Grab',
-				image: require('@/images/sponsors/grab-compressed.png'),
-				url: 'https://www.grab.com/id/',
+				name: 'Sinarmas Land',
+				image: 'https://www.sinarmasland.com/static/logo_sinarmas-dark-2d2bb249299fda48ad4a9d199e44c467.png',
+				url: 'https://www.sinarmasland.com/',
 			},
 		},
-		PLATINUM: {
-			NBS: {
-				name: 'Dicoding',
-				image: require('@/images/sponsors/dicoding.png'),
-				url: 'https://www.dicoding.com/',
-			},
-		},
-		GOLD: {
-			NBS: {
-				name: 'NBS',
-				image: require('@/images/sponsors/nbs.png'),
-				url: 'https://nbs.co.id/',
-			},
-		},
+		PLATINUM: {},
+		GOLD: {},
 	},
 	COLLABORATORS: {
 		GDG_JAKARTA: {
