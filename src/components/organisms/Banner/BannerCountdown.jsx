@@ -1,7 +1,7 @@
 import React from 'react';
-import Countdown from 'react-countdown';
 import { ImTicket } from 'react-icons/im';
 import { DATA_EVENT } from '@/datas';
+import { Countdown } from '@/components/atoms';
 
 export const BannerCountdown = () => {
 	return (
@@ -41,7 +41,7 @@ export const BannerCountdown = () => {
 
 							<div className="space-y-3">
 								<div className="space-y-1 text-sm text-center text-white">
-									<div>{DATA_EVENT.CALENDAR.LABEL}</div>
+									<div>{DATA_EVENT.CALENDAR.DATE.LABEL}</div>
 									<div>
 										at <span className="font-semibold">{DATA_EVENT.LOCATION.LABEL}</span>{' '}
 										<a
@@ -59,29 +59,7 @@ export const BannerCountdown = () => {
 								</div>
 							</div>
 
-							<Countdown
-								date={DATA_EVENT.CALENDAR.VALUE}
-								renderer={({ days, hours, minutes, seconds }) => (
-									<div className="flex w-full max-w-screen-lg mx-auto space-x-4">
-										<div className="flex-1 p-3 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md md:p-5 bg-opacity-20">
-											<div className="text-2xl font-bold md:text-4xl">{days}</div>
-											<div className="text-xs md:text-sm">day(s)</div>
-										</div>
-										<div className="flex-1 p-3 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md md:p-5 bg-opacity-20">
-											<div className="text-2xl font-bold md:text-4xl">{hours}</div>
-											<div className="text-xs md:text-sm">hour(s)</div>
-										</div>
-										<div className="flex-1 p-3 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md md:p-5 bg-opacity-20">
-											<div className="text-2xl font-bold md:text-4xl">{minutes}</div>
-											<div className="text-xs md:text-sm">minute(s)</div>
-										</div>
-										<div className="flex-1 p-3 space-y-1 text-center text-white bg-gray-500 border border-gray-700 border-dashed rounded-md md:p-5 bg-opacity-20">
-											<div className="text-2xl font-bold md:text-4xl">{seconds}</div>
-											<div className="text-xs md:text-sm">second(s)</div>
-										</div>
-									</div>
-								)}
-							/>
+							<Countdown />
 						</div>
 
 						<a

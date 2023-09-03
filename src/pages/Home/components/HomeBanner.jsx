@@ -1,11 +1,13 @@
 import { Fade } from 'react-reveal';
 import { FiCalendar, FiExternalLink, FiMapPin } from 'react-icons/fi';
 import { ImTicket } from 'react-icons/im';
-import { Button } from '@/components/atoms';
+import { Button, Countdown } from '@/components/atoms';
 import { DATA_EVENT } from '@/datas';
 import { Container } from '@/components/atoms';
 
 export const HomeBanner = () => {
+	const IS_SHOW_COUNTDOWN = true;
+
 	return (
 		<section>
 			<div className="relative flex items-center justify-center w-full pt-20 bg-black pb-28 md:py-32">
@@ -79,6 +81,7 @@ export const HomeBanner = () => {
 										</span>
 									</div>
 								</div>
+								{IS_SHOW_COUNTDOWN && <Countdown />}
 
 								<div className="flex justify-center">
 									<Button
