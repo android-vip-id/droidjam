@@ -3,7 +3,7 @@ export const DATA_PARTNERSHIP = {
 		DIAMOND: {
 			GOOGLE: {
 				name: 'Sinarmas Land',
-				image: 'https://www.sinarmasland.com/static/logo_sinarmas-dark-2d2bb249299fda48ad4a9d199e44c467.png',
+				image: require('@/images/sponsors/2023/sinarmas-land.png'),
 				url: 'https://www.sinarmasland.com/',
 			},
 		},
@@ -13,29 +13,24 @@ export const DATA_PARTNERSHIP = {
 	COLLABORATORS: {
 		GDG_JAKARTA: {
 			name: 'GDG Jakarta',
-			image: require('@/images/sponsors/gdg-jakarta.png'),
+			image: require('@/images/sponsors/2023/gdg-jakarta.png'),
 			url: null,
-		},
-		JAGOAN_HOSTING: {
-			name: 'Jagoan Hosting',
-			image: require('@/images/sponsors/jagoan-hosting.png'),
-			url: 'https://www.jagoanhosting.com/',
 		},
 	},
 	COMMUNITY_PARTNERS: {
 		ADB: {
 			name: 'Android Developer Bandung',
-			image: require('@/images/sponsors/adb.jpg'),
+			image: require('@/images/sponsors/2023/adb.jpg'),
 			url: null,
 		},
 		AEJ: {
 			name: 'Android Enthusiast Jakarta',
-			image: require('@/images/sponsors/aej.png'),
+			image: require('@/images/sponsors/2023/aej.png'),
 			url: null,
 		},
 		VIP: {
 			name: 'Android VIP',
-			image: require('@/images/sponsors/android-vip.png'),
+			image: require('@/images/sponsors/2023/android-vip.png'),
 			url: null,
 		},
 	},
