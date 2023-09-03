@@ -20,7 +20,10 @@ export const REGISTRATION_LINK = 'https://www.loket.com/event/droidjam-android-c
 export const LOCATION = {
 	LABEL: 'QBIG Convention Center BSD',
 	ADDRESS: 'Jl. BSD Raya Utama, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331',
-	URL: 'https://www.google.com/maps/dir//Jl.+BSD+Raya+Utama,+Lengkong+Kulon,+Kec.+Pagedangan,+Kabupaten+Tangerang,+Banten+15331/@-6.2845561,106.5556538,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e69fb4030859dfb:0xbc8402640a0b831d!2m2!1d106.6380557!2d-6.2845625?entry=ttu',
+	IMAGE: require('@/images/locations/2023/Cover-Depan-_Qbig.jpg'),
+	URL: 'https://goo.gl/maps/dWTDME4HwfBscNkQ8',
+	IFRAME_URL:
+		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.841491106965!2d106.6331848!3d-6.2845571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb4030859dfb%3A0xbc8402640a0b831d!2sQBIG%20BSD%20City!5e0!3m2!1sid!2sid!4v1693722303480!5m2!1sid!2sid',
 };
 
 export const MAIN_TOPICS = [

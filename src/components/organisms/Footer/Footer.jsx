@@ -1,16 +1,12 @@
 import { Button, Container } from '@/components/atoms';
-import { DATA_EVENT } from '@/datas';
+import { DATA_EVENT, LOCATION } from '@/datas';
 import React from 'react';
 
 export const Footer = () => {
 	return (
 		<footer className="relative overflow-hidden">
 			<div className="absolute w-full h-full -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
-				<img
-					className="object-cover w-full h-full"
-					src={require('@/images/samples/indosat-auditorium.png')}
-					alt="Indosat Ooredoo"
-				/>
+				<img className="object-cover w-full h-full" src={LOCATION.IMAGE} alt={LOCATION.LABEL} />
 			</div>
 			<div className="relative bg-black bg-opacity-70">
 				<Container className="py-20 space-y-8 text-center text-white">
