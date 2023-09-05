@@ -55,20 +55,6 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	'erico-darmawan': {
-		key: 'erico-darmawan',
-		name: 'Erico Darmawan',
-		designation: ['Flutter YouTuber', 'Lecturer'],
-		talk_title: undefined,
-		bio: undefined,
-		avatar: require('@/images/speakers/2023/Erico Darmawan.png'),
-		socials: [
-			{
-				type: 'linkedin',
-				url: 'https://www.linkedin.com/in/erico-darmawan-handoyo-837280a6/',
-			},
-		],
-	},
 	'pooja-bhaumik': {
 		key: 'pooja-bhaumik',
 		name: 'Pooja Bhaumik',
