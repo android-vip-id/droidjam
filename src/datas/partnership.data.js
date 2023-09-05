@@ -2,6 +2,11 @@ export const DATA_PARTNERSHIP = {
 	SPONSORS: {
 		DIAMOND: {
 			GOOGLE: {
+				name: 'Google',
+				image: 'https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png',
+				url: 'https://www.google.com/',
+			},
+			SINARMAS_LAND: {
 				name: 'Sinarmas Land',
 				image: require('@/images/sponsors/2023/sinarmas-land.png'),
 				url: 'https://www.sinarmasland.com/',
