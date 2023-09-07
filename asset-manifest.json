@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.bb4124f2.css",
-    "main.js": "/static/js/main.84983087.js",
+    "main.js": "/static/js/main.c9018feb.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
     "static/media/Aung Kyaw Paing.png": "/static/media/Aung Kyaw Paing.f4af67e506dacf49b7e3.png",
     "static/media/Veronica Putri A.png": "/static/media/Veronica Putri A.a099eb537698870d9afa.png",
-    "static/media/Pooja Bhaumik.png": "/static/media/Pooja Bhaumik.7227aeb27c82cab16dbc.png",
     "static/media/Esa Firman.png": "/static/media/Esa Firman.3906ab0d9b5c2870e0a5.png",
     "static/media/Saurabh Arora.png": "/static/media/Saurabh Arora.37f0c81a35a9f6ea73ad.png",
     "static/media/Cover-Depan-_Qbig.jpg": "/static/media/Cover-Depan-_Qbig.2837078acb7cb4fec01d.jpg",
@@ -23,11 +22,11 @@
     "static/media/shape-1-bottom.svg": "/static/media/shape-1-bottom.5899edd7c055055d5848.svg",
     "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
     "main.bb4124f2.css.map": "/static/css/main.bb4124f2.css.map",
-    "main.84983087.js.map": "/static/js/main.84983087.js.map",
+    "main.c9018feb.js.map": "/static/js/main.c9018feb.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb4124f2.css",
-    "static/js/main.84983087.js"
+    "static/js/main.c9018feb.js"
   ]
 }
