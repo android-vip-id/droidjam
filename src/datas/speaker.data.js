@@ -55,20 +55,6 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
-	'pooja-bhaumik': {
-		key: 'pooja-bhaumik',
-		name: 'Pooja Bhaumik',
-		designation: ['Flutter GDE', 'DevRel, FlutterFlow'],
-		talk_title: undefined,
-		bio: undefined,
-		avatar: require('@/images/speakers/2023/Pooja Bhaumik.png'),
-		socials: [
-			{
-				type: 'linkedin',
-				url: 'https://www.linkedin.com/in/poojabhaumik/',
-			},
-		],
-	},
 	'veronica-putri': {
 		key: 'veronica-putri',
 		name: 'Veronica Putri Anggraini',
@@ -76,7 +62,12 @@ export const DATA_SPEAKER = {
 		talk_title: undefined,
 		bio: undefined,
 		avatar: require('@/images/speakers/2023/Veronica Putri A.png'),
-		socials: [],
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/veroanggra/',
+			},
+		],
 	},
 	'andri-ginting': {
 		key: 'andri-ginting',
@@ -85,7 +76,12 @@ export const DATA_SPEAKER = {
 		talk_title: undefined,
 		bio: undefined,
 		avatar: require('@/images/speakers/2023/Andri Ginting.png'),
-		socials: [],
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/andriiginting/',
+			},
+		],
 	},
 };
 
