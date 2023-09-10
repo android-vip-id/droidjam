@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb4124f2.css",
-    "main.js": "/static/js/main.c9018feb.js",
+    "main.css": "/static/css/main.beb17737.css",
+    "main.js": "/static/js/main.aba8d391.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
     "static/media/Aung Kyaw Paing.png": "/static/media/Aung Kyaw Paing.f4af67e506dacf49b7e3.png",
     "static/media/Veronica Putri A.png": "/static/media/Veronica Putri A.a099eb537698870d9afa.png",
@@ -21,12 +21,12 @@
     "index.html": "/index.html",
     "static/media/shape-1-bottom.svg": "/static/media/shape-1-bottom.5899edd7c055055d5848.svg",
     "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
-    "main.bb4124f2.css.map": "/static/css/main.bb4124f2.css.map",
-    "main.c9018feb.js.map": "/static/js/main.c9018feb.js.map",
+    "main.beb17737.css.map": "/static/css/main.beb17737.css.map",
+    "main.aba8d391.js.map": "/static/js/main.aba8d391.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb4124f2.css",
-    "static/js/main.c9018feb.js"
+    "static/css/main.beb17737.css",
+    "static/js/main.aba8d391.js"
   ]
 }
