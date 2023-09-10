@@ -1,4 +1,3 @@
-import { DATA_SPEAKER } from './speaker.data';
 import { v4 as uuidv4 } from 'uuid';
 
 export const DATA_SCHEDULE = [
@@ -29,12 +28,7 @@ export const DATA_SCHEDULE = [
 		agenda: 'Tech Talk: Android & Flutter',
 		title: null,
 		pic: 'Event team',
-		speakers: [
-			{
-				name: DATA_SPEAKER['sidiq-permana'].name,
-				data: DATA_SPEAKER['sidiq-permana'],
-			},
-		],
+		speakers: [],
 		organization: null,
 	},
 	{
@@ -44,12 +38,7 @@ export const DATA_SCHEDULE = [
 		agenda: 'Tech Talk: Android & Flutter',
 		title: null,
 		pic: 'Event team',
-		speakers: [
-			{
-				name: DATA_SPEAKER['sidiq-permana'].name,
-				data: DATA_SPEAKER['sidiq-permana'],
-			},
-		],
+		speakers: [],
 		organization: null,
 	},
 	{
@@ -59,12 +48,7 @@ export const DATA_SCHEDULE = [
 		agenda: 'Tech Talk: #JuaraAndroid campaign',
 		title: null,
 		pic: 'Event team',
-		speakers: [
-			{
-				name: DATA_SPEAKER['veronica-putri'].name,
-				data: DATA_SPEAKER['veronica-putri'],
-			},
-		],
+		speakers: [],
 		organization: null,
 	},
 	{
