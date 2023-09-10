@@ -5,7 +5,7 @@ export const DATA_SPEAKER = {
 		designation: ['Android GDE', 'Android Engineer, Twitter'],
 		talk_title: undefined,
 		bio: undefined,
-		country: require('@/images/flags/india.png'),
+		country: require('@/images/flags/singapore.webp'),
 		avatar: require('@/images/speakers/2023/Saurabh Arora.png'),
 		socials: [
 			{
@@ -65,7 +65,6 @@ export const DATA_SPEAKER = {
 		country: require('@/images/flags/indonesia.webp'),
 		designation: ['Android GDE', 'Android Engineer, eWIDE+'],
 		talk_title: undefined,
-		bio: 'asdasdasd',
 		avatar: require('@/images/speakers/2023/Veronica Putri A.png'),
 		socials: [
 			{
@@ -77,7 +76,7 @@ export const DATA_SPEAKER = {
 	'andri-ginting': {
 		key: 'andri-ginting',
 		name: 'Andri Suranta Ginting',
-		country: require('@/images/flags/indonesia.webp'),
+		country: require('@/images/flags/japan.png'),
 		designation: ['Android Engineer, SmartNews'],
 		talk_title: undefined,
 		bio: undefined,
