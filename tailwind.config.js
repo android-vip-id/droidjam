@@ -15,6 +15,9 @@ module.exports = {
 					'colors.blue.500'
 				)})`,
 			}),
+			screens: {
+				xs: '380px',
+			},
 		},
 	},
 	plugins: [
