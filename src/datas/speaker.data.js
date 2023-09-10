@@ -5,6 +5,7 @@ export const DATA_SPEAKER = {
 		designation: ['Android GDE', 'Android Engineer, Twitter'],
 		talk_title: undefined,
 		bio: undefined,
+		country: require('@/images/flags/india.png'),
 		avatar: require('@/images/speakers/2023/Saurabh Arora.png'),
 		socials: [
 			{
@@ -16,6 +17,7 @@ export const DATA_SPEAKER = {
 	'aung-kyaw-paing': {
 		key: 'aung-kyaw-paing',
 		name: 'Aung Kyaw Paing',
+		country: require('@/images/flags/thailand.webp'),
 		designation: ['Android GDE', 'Senior Consultant, Thoughtworks'],
 		talk_title: undefined,
 		bio: undefined,
@@ -30,6 +32,7 @@ export const DATA_SPEAKER = {
 	'esa-firman': {
 		key: 'esa-firman',
 		name: 'Esa Firman',
+		country: require('@/images/flags/indonesia.webp'),
 		designation: ['Lead Android Engineer, Gojek', 'ADB Bandung Organizer'],
 		talk_title: undefined,
 		bio: undefined,
@@ -44,6 +47,7 @@ export const DATA_SPEAKER = {
 	'sidiq-permana': {
 		key: 'sidiq-permana',
 		name: 'Sidiq Permana',
+		country: require('@/images/flags/indonesia.webp'),
 		designation: ['Android GDE', 'CIO, NBS'],
 		talk_title: undefined,
 		bio: undefined,
@@ -58,9 +62,10 @@ export const DATA_SPEAKER = {
 	'veronica-putri': {
 		key: 'veronica-putri',
 		name: 'Veronica Putri Anggraini',
+		country: require('@/images/flags/indonesia.webp'),
 		designation: ['Android GDE', 'Android Engineer, eWIDE+'],
 		talk_title: undefined,
-		bio: undefined,
+		bio: 'asdasdasd',
 		avatar: require('@/images/speakers/2023/Veronica Putri A.png'),
 		socials: [
 			{
@@ -72,6 +77,7 @@ export const DATA_SPEAKER = {
 	'andri-ginting': {
 		key: 'andri-ginting',
 		name: 'Andri Suranta Ginting',
+		country: require('@/images/flags/indonesia.webp'),
 		designation: ['Android Engineer, SmartNews'],
 		talk_title: undefined,
 		bio: undefined,
@@ -80,6 +86,21 @@ export const DATA_SPEAKER = {
 			{
 				type: 'linkedin',
 				url: 'https://www.linkedin.com/in/andriiginting/',
+			},
+		],
+	},
+	'vivek-yadav': {
+		key: 'vivek-yadav',
+		name: 'Vivek Yadav',
+		country: require('@/images/flags/india.png'),
+		designation: ['Dev Lead, Tata Digital', 'GDE Flutter & Dart'],
+		talk_title: undefined,
+		bio: undefined,
+		avatar: require('@/images/speakers/2023/Vivek Yadav.webp'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/viveky259/',
 			},
 		],
 	},
