@@ -1,9 +1,9 @@
 export const DATA_PARTNERSHIP = {
 	SPONSORS: {
 		DIAMOND: {
-			GOOGLE: {
-				name: 'Google',
-				image: 'https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png',
+			GOOGLE_FOR_DEVELOPERS: {
+				name: 'Google for Developers',
+				image: require('@/images/sponsors/2023/google for developers.png'),
 				url: 'https://www.google.com/',
 			},
 			SINARMAS_LAND: {
@@ -11,9 +11,20 @@ export const DATA_PARTNERSHIP = {
 				image: require('@/images/sponsors/2023/sinarmas-land.png'),
 				url: 'https://www.sinarmasland.com/',
 			},
+			DICODING: {
+				name: 'Dicoding',
+				image: require('@/images/sponsors/2023/dicoding.png'),
+				url: 'https://www.dicoding.com/',
+			},
 		},
 		PLATINUM: {},
-		GOLD: {},
+		GOLD: {
+			NBS: {
+				name: 'NBS',
+				image: require('@/images/sponsors/2023/nbs.png'),
+				url: 'https://nbs.co.id/',
+			},
+		},
 	},
 	COLLABORATORS: {
 		GDG_JAKARTA: {

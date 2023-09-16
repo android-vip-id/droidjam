@@ -11,7 +11,7 @@ export const HomeAbout = () => {
 						<div className="text-left lg:text-lg">
 							DroidJam Conference brings together thousands of Android developers globally for the largest event
 							community-led technical learning and a shared passion for Android technologies. We Invite{' '}
-							<strong>500+</strong> Professional Android developers, Google Developer Experts, Technical leaders,
+							<strong>350+</strong> Professional Android developers, Google Developer Experts, Technical leaders,
 							Freelancers, Students, and Android enthusiasts to join DroidJam Conference Jakarta 2023
 						</div>
 

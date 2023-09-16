@@ -36,7 +36,7 @@ export const HomeSponsors = (type) => {
 							</div>
 						</div>
 					)}
-					{Object.values(PLATINUM_SPONSORS).length > 0 && (
+					{Object.values(GOLD_SPONSORS).length > 0 && (
 						<div className="space-y-3">
 							<div className="flex flex-col items-center text-center">
 								<h1 className="font-semibold md:text-xl">Gold Sponsors</h1>

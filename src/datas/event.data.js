@@ -18,12 +18,12 @@ export const CALENDAR = {
 export const REGISTRATION_LINK = 'https://www.loket.com/event/droidjam-2023-vjt';
 
 export const LOCATION = {
-	LABEL: 'QBIG Convention Center BSD',
+	LABEL: 'Auditorium Green Office Park 9 Sinarmas Land',
 	ADDRESS: 'Jl. BSD Raya Utama, Lengkong Kulon, Kec. Pagedangan, Kabupaten Tangerang, Banten 15331',
-	IMAGE: require('@/images/locations/2023/Cover-Depan-_Qbig.jpg'),
-	URL: 'https://goo.gl/maps/dWTDME4HwfBscNkQ8',
+	IMAGE: require('@/images/locations/2023/sinarmas-green-office.jpg'),
+	URL: 'https://www.google.com/maps/place/Auditorium+Green+Office+Park+9+Sinarmas+Land/@-6.3024243,106.6523676,15z/data=!4m2!3m1!1s0x0:0x68c6514b23a26a0d?sa=X&ved=2ahUKEwirt9L4862BAxUuSWwGHdViArUQ_BJ6BAhtEAA&ved=2ahUKEwirt9L4862BAxUuSWwGHdViArUQ_BJ6BAhzEAg',
 	IFRAME_URL:
-		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.841491106965!2d106.6331848!3d-6.2845571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb4030859dfb%3A0xbc8402640a0b831d!2sQBIG%20BSD%20City!5e0!3m2!1sid!2sid!4v1693722303480!5m2!1sid!2sid',
+		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15862.820404740458!2d106.6523676!3d-6.3024243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb4a814ebd3b%3A0x68c6514b23a26a0d!2sAuditorium%20Green%20Office%20Park%209%20Sinarmas%20Land!5e0!3m2!1sid!2sid!4v1694868032782!5m2!1sid!2sid',
 };
 
 export const MAIN_TOPICS = [
