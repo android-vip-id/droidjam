@@ -32,7 +32,11 @@ export const OrganizerList = () => {
 						<div className="flex-1 p-4 pb-2 space-y-4">
 							<div className="space-y-1">
 								<h1 className="text-sm font-semibold sm:text-base relative">{organizer.name} </h1>
-								<div className="text-xs sm:text-sm">{organizer.company}</div>
+								<div className="text-xs sm:text-sm">
+									{organizer.designation.map((designation) => (
+										<div key={designation}>{designation}</div>
+									))}
+								</div>
 							</div>
 						</div>
 						<div className="flex justify-center p-4 py-3 border-t">
