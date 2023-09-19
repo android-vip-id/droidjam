@@ -11,7 +11,7 @@ export const Organizer = () => {
 			</Helmet>
 			<BannerPage
 				title="Organizers"
-				description="DroidJam Indonesia is an Indonesia community-driven conference, and administratively supported by DroidJam
+				description="DroidJam is an Indonesia community-driven conference, and administratively supported by DroidJam
 				Indonesia. To make all this possible, an awesome team of volunteers is working behind the scenes."
 			/>
 
