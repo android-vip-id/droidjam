@@ -33,7 +33,7 @@ export const DATA_SPEAKER = {
 		key: 'esa-firman',
 		name: 'Esa Firman',
 		country: require('@/images/flags/indonesia.webp'),
-		designation: ['Lead Android Engineer, Gojek', 'ADB Bandung Organizer'],
+		designation: ['Lead Android Engineer, Gojek', 'ADB Organizer'],
 		talk_title: undefined,
 		bio: undefined,
 		avatar: require('@/images/speakers/2023/Esa Firman.png'),
