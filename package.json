@@ -37,8 +37,8 @@
 		"predeploy:windows": "cd build && copy index.html 404.html && cd ../ && copy CNAME build",
 		"predeploy:mac": "cd build && cp index.html 404.html && cd ../ && cp CNAME build",
 		"deploy:gh-pages": "gh-pages -d build",
-		"deploy:windows": "npm run build && npm run predeploy:windows && gh-pages -d build",
-		"deploy:mac": "npm run build && npm run predeploy:mac && gh-pages -d build"
+		"deploy:windows": "npm run build && npm run predeploy:windows && npm run deploy:gh-pages",
+		"deploy:mac": "npm run build && npm run predeploy:mac && npm run deploy:gh-pages"
 	},
 	"eslintConfig": {
 		"extends": [
