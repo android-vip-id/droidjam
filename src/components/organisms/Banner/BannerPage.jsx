@@ -18,7 +18,7 @@ export const BannerPage = ({ title, description, buttonText, onClickButton }) =>
 					<div className="space-y-8">
 						<div className="text-white space-y-3">
 							<h1
-								className="text-5xl font-bold bg-gradient-primary bg-clip-text"
+								className="text-5xl font-bold bg-gradient-primary bg-clip-text leading-normal"
 								style={{ WebkitTextFillColor: 'transparent' }}
 							>
 								{title}

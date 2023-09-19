@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { Home, Schedule, Speaker } from '@/pages';
+import { Home, Organizer, OrganizerDetail, Schedule, Speaker } from '@/pages';
 import { Header, Footer } from './components/organisms';
 import { SpeakerDetail } from './pages/Speaker/SpeakerDetail';
 import { ROUTES } from './routes';
@@ -20,6 +20,8 @@ function App() {
 				<Route path={ROUTES.SCHEDULE} element={<Schedule />} />
 				<Route path={ROUTES.SPEAKER} element={<Speaker />} />
 				<Route path={`${ROUTES.SPEAKER}/:key`} element={<SpeakerDetail />} />
+				<Route path={ROUTES.ORGANIZER} element={<Organizer />} />
+				<Route path={`${ROUTES.ORGANIZER}/:key`} element={<OrganizerDetail />} />
 			</Routes>
 
 			<Footer />
