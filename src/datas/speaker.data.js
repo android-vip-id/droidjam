@@ -103,6 +103,36 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
+	'rifa-fauzi-komara': {
+		key: 'rifa-fauzi-komara',
+		name: 'R. Rifa Fauzi Komara',
+		country: require('@/images/flags/indonesia.webp'),
+		designation: ['Software Engineer, Mobile (Flutter), Grab'],
+		talk_title: undefined,
+		bio: undefined,
+		avatar: require('@/images/speakers/2023/rifa-fauzi.jpg'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/arifaizin/',
+			},
+		],
+	},
+	'arif-faizin': {
+		key: 'arif-faizin',
+		name: 'Arif Faizin',
+		country: require('@/images/flags/indonesia.webp'),
+		designation: ['Curriculum Developer Lead, Dicoding Indonesia'],
+		talk_title: undefined,
+		bio: undefined,
+		avatar: require('@/images/speakers/2023/arif faizin.jpeg'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/arifaizin/',
+			},
+		],
+	},
 };
 
 export const DATA_SPEAKER_ARRAY = Object.values(DATA_SPEAKER);
