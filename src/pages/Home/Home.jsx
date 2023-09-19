@@ -8,6 +8,7 @@ import { HomeSpeakers } from './components/HomeSpeakers';
 import { HomeSponsors } from './components/HomeSponsors';
 import { HomePartnership } from './components/HomePartnership';
 import { DATA_EVENT } from '@/datas';
+import { HomeOrganizers } from './components/HomeOrganizers';
 
 export const Home = () => {
 	return (
@@ -27,6 +28,10 @@ export const Home = () => {
 
 			<Fade>
 				<HomeSpeakers />
+			</Fade>
+
+			<Fade>
+				<HomeOrganizers />
 			</Fade>
 
 			<Fade>
