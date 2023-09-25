@@ -114,7 +114,7 @@ export const DATA_SPEAKER = {
 		socials: [
 			{
 				type: 'linkedin',
-				url: 'https://www.linkedin.com/in/arifaizin/',
+				url: 'https://www.linkedin.com/in/rrifafauzikomara/',
 			},
 		],
 	},
