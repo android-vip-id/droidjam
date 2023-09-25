@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9859d032.css",
-    "main.js": "/static/js/main.02d12d48.js",
+    "main.js": "/static/js/main.e616b1bb.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
     "static/media/rifa-fauzi.jpg": "/static/media/rifa-fauzi.29328bbf16521fee90de.jpg",
     "static/media/Aung Kyaw Paing.png": "/static/media/Aung Kyaw Paing.f4af67e506dacf49b7e3.png",
@@ -36,11 +36,11 @@
     "static/media/indonesia.webp": "/static/media/indonesia.c2e66f636387c5f4d1c1.webp",
     "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
     "main.9859d032.css.map": "/static/css/main.9859d032.css.map",
-    "main.02d12d48.js.map": "/static/js/main.02d12d48.js.map",
+    "main.e616b1bb.js.map": "/static/js/main.e616b1bb.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9859d032.css",
-    "static/js/main.02d12d48.js"
+    "static/js/main.e616b1bb.js"
   ]
 }
