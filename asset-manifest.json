@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9859d032.css",
-    "main.js": "/static/js/main.e616b1bb.js",
+    "main.js": "/static/js/main.714e89ad.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
     "static/media/rifa-fauzi.jpg": "/static/media/rifa-fauzi.29328bbf16521fee90de.jpg",
     "static/media/Aung Kyaw Paing.png": "/static/media/Aung Kyaw Paing.f4af67e506dacf49b7e3.png",
@@ -18,6 +18,7 @@
     "static/media/droid-jam-logo-square.png": "/static/media/droid-jam-logo-square.a72baff71e58de99b799.png",
     "static/media/adb.jpg": "/static/media/adb.5986a60670d0755f9d72.jpg",
     "static/media/dicoding.png": "/static/media/dicoding.d69a35c4510c39c912af.png",
+    "static/media/digitalhub.png": "/static/media/digitalhub.5b5d8ccaa0504d7df8cb.png",
     "static/media/sinarmas-land.png": "/static/media/sinarmas-land.c65f195d7910be7b6d4e.png",
     "static/media/droid-jam-logo.png": "/static/media/droid-jam-logo.fcd072362e048463a02a.png",
     "static/media/ahmed-rayhan.jpeg": "/static/media/ahmed-rayhan.fc08f79c7f6a58758e04.jpeg",
@@ -30,17 +31,18 @@
     "static/media/sidiq-permana.jpeg": "/static/media/sidiq-permana.fd4bd2ed1f1da1393742.jpeg",
     "static/media/singapore.webp": "/static/media/singapore.fc7ef7b2a3d9d510eeff.webp",
     "static/media/Vivek Yadav.webp": "/static/media/Vivek Yadav.371c086b78266e0d939a.webp",
+    "static/media/tiptip.webp": "/static/media/tiptip.a645bf0fd8e325614bc4.webp",
     "static/media/thailand.webp": "/static/media/thailand.1c6fe93f23a77e5af372.webp",
     "index.html": "/index.html",
     "static/media/shape-1-bottom.svg": "/static/media/shape-1-bottom.5899edd7c055055d5848.svg",
     "static/media/indonesia.webp": "/static/media/indonesia.c2e66f636387c5f4d1c1.webp",
     "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
     "main.9859d032.css.map": "/static/css/main.9859d032.css.map",
-    "main.e616b1bb.js.map": "/static/js/main.e616b1bb.js.map",
+    "main.714e89ad.js.map": "/static/js/main.714e89ad.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9859d032.css",
-    "static/js/main.e616b1bb.js"
+    "static/js/main.714e89ad.js"
   ]
 }
