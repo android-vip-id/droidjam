@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.9859d032.css",
-    "main.js": "/static/js/main.714e89ad.js",
+    "main.js": "/static/js/main.63add7c4.js",
     "static/js/787.221b4a41.chunk.js": "/static/js/787.221b4a41.chunk.js",
     "static/media/rifa-fauzi.jpg": "/static/media/rifa-fauzi.29328bbf16521fee90de.jpg",
     "static/media/Aung Kyaw Paing.png": "/static/media/Aung Kyaw Paing.f4af67e506dacf49b7e3.png",
+    "static/media/Panji Gautama.jpeg.jpg": "/static/media/Panji Gautama.jpeg.1e487c8b5b5792426f26.jpg",
     "static/media/Veronica Putri A.png": "/static/media/Veronica Putri A.a099eb537698870d9afa.png",
     "static/media/india.png": "/static/media/india.f90d9222ad816550906f.png",
     "static/media/Esa Firman.png": "/static/media/Esa Firman.3906ab0d9b5c2870e0a5.png",
@@ -38,11 +39,11 @@
     "static/media/indonesia.webp": "/static/media/indonesia.c2e66f636387c5f4d1c1.webp",
     "static/media/shape-1-top.svg": "/static/media/shape-1-top.31d6cfe0d16ae931b73c.svg",
     "main.9859d032.css.map": "/static/css/main.9859d032.css.map",
-    "main.714e89ad.js.map": "/static/js/main.714e89ad.js.map",
+    "main.63add7c4.js.map": "/static/js/main.63add7c4.js.map",
     "787.221b4a41.chunk.js.map": "/static/js/787.221b4a41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9859d032.css",
-    "static/js/main.714e89ad.js"
+    "static/js/main.63add7c4.js"
   ]
 }
